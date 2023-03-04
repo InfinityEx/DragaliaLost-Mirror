@@ -1,0 +1,66 @@
+body > header, body > footer, #app-header {
+  min-width: 1500px; }
+
+body#kingdom {
+  background-image: url("../../images/pc/world/kingdom/bg.jpg");
+  overflow-x: visible;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  min-width: 1400px; }
+
+body#kingdom #wrapper {
+  box-sizing: border-box;
+  padding-bottom: 50px; }
+
+body#kingdom #wrapper #main {
+  background-image: url("../../images/pc/world/kingdom/text_bg.png");
+  background-position: 0px 315px;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 1226px; }
+
+body#kingdom #wrapper #main .main-visual {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto; }
+
+body#kingdom #wrapper #main .main-visual .category {
+  position: absolute;
+  top: 140px;
+  left: 65px; }
+
+body#kingdom #wrapper #main .main-visual .text {
+  padding-top: 350px;
+  padding-left: 92px;
+  margin-bottom: 82px; }
+
+body#kingdom #wrapper #main .main-visual .char {
+  position: absolute;
+  top: 243px;
+  left: 523px;
+  z-index: -1; }
+
+body#kingdom #wrapper #main .main-visual .arrow .next {
+  position: absolute;
+  top: 670px;
+  right: 26px; }
+
+body#kingdom #wrapper #main .main-visual .arrow .prev {
+  position: absolute;
+  top: 670px;
+  left: 26px; }
+
+body#kingdom #wrapper #main .main-visual .world-tab {
+  width: 1000px;
+  margin: 0 auto; }
+
+body#kingdom #wrapper #main .main-visual .world-tab li {
+  display: inline-block;
+  margin-left: 5px; }
+
+body#kingdom #wrapper #main .main-visual .world-tab li:first-child {
+  margin-left: 0px; }
+
+body#kingdom footer {
+  z-index: 12; }

@@ -1,0 +1,77 @@
+header{
+  min-width: 1200px;
+}
+body:not(#top, #news){
+  background-color: #f4f4f4 !important;
+}
+
+#dragon .inner .link {
+  transition: opacity 1s ease-out 0.4s;
+  opacity: 0;
+}
+#dragon .inner .link .btn-detail{
+  background: none
+}
+#dragon.inview .inner .link {
+    opacity: 1;
+}
+
+/*事前登録*/
+#pre_registration{
+  overflow-x: visible !important;
+}
+
+/*事前登録*/
+#pre_registration_under{
+  overflow-x: visible !important;
+}
+body#pre_registration #wrapper{
+  min-height: 2700px;
+}
+body#pre_registration #wrapper .approach h3{
+  margin-bottom: 10px;
+}
+body#pre_registration #wrapper .approach .btn_pre_registration .nintendo{
+  display: inline-block;
+}
+body#pre_registration #wrapper .approach .btn_pre_registration .nintendo a{
+  width: auto;
+  background-image: none;
+}
+body#pre_registration #wrapper .approach .btn_pre_registration .app-list{
+  display: inline-block;
+}
+body#pre_registration #wrapper .approach .btn_pre_registration .app-list li{
+  display: block;
+}
+body#pre_registration #wrapper .approach .btn_pre_registration .app-list .title{
+  margin-bottom: 15px;
+  padding-top: 13px;
+  padding-left: 20px;
+}
+body#pre_registration #wrapper .approach .btn_pre_registration .app-list li .app-inner li{
+  display: inline-block;
+  margin-left: 17px;
+}
+body#pre_registration #wrapper .approach .btn_pre_registration .app-list li .app-inner li:first-child{
+  margin-left: 0px;
+}
+body#pre_registration #wrapper .approach .btn_pre_registration li{
+  padding-top: 0px;
+}
+body#pre_registration #wrapper .approach .btn_pre_registration{
+  margin-bottom: 10px;
+}
+body#pre_registration #wrapper .approach .btn_pre_registration .facebook{
+  margin: 0;
+}
+body#pre_registration #wrapper .approach .btn_pre_registration .facebook a{
+  background-image: none;
+  width: auto;
+  height: auto;
+}
+body#pre_registration #wrapper .approach .btn_pre_registration .youtube a{
+  background-image: none;
+  width: auto;
+  height: auto;
+}

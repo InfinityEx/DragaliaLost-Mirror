@@ -1,0 +1,272 @@
+@charset "UTF-8";
+body#faq {
+  background: #ffffff;
+  min-width: 1000px; }
+
+#wrapper {
+  padding-top: 190px; }
+  #wrapper > .inner {
+    width: 1200px;
+    margin-bottom: 70px; }
+    #wrapper > .inner h2 {
+      margin-bottom: 5px; }
+    #wrapper > .inner .lead {
+      font-size: 18px;
+      font-family: "\30D2\30E9\30AE\30CE\89D2\30B4   Pro W3", "Hiragino Kaku Gothic Pro", "\30E1\30A4\30EA\30AA", "Meiryo", "Osaka", "\FF2D\FF33   \FF30\30B4\30B7\30C3\30AF", "MS P Gothic", sans-serif; }
+  #wrapper > #contents {
+    font-family: "\30D2\30E9\30AE\30CE\89D2\30B4   Pro W3", "Hiragino Kaku Gothic Pro", "\30E1\30A4\30EA\30AA", "Meiryo", "Osaka", "\FF2D\FF33   \FF30\30B4\30B7\30C3\30AF", "MS P Gothic", sans-serif; }
+    #wrapper > #contents > .inner {
+      width: 1200px; }
+  #wrapper .faq-search {
+    margin: 0 auto 38px; }
+    #wrapper .faq-search .search {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-bottom: 10px; }
+      #wrapper .faq-search .search input {
+        -webkit-box-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        height: 35px;
+        line-height: 35px;
+        border: none;
+        border-radius: 5px;
+        padding-left: 10px;
+        outline: none;
+        background: #e6e6e6; }
+      #wrapper .faq-search .search button {
+        width: 150px;
+        font-size: 18px;
+        margin-left: 10px;
+        border-radius: 5px;
+        color: #ffffff;
+        background: #b93b24;
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5); }
+  #wrapper .faq-tab {
+    margin-bottom: 30px; }
+    #wrapper .faq-tab ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      #wrapper .faq-tab ul > li {
+        width: 158px;
+        margin-right: 10px; }
+        #wrapper .faq-tab ul > li a {
+          border-radius: 5px;
+          width: 100%;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          color: #ffffff;
+          box-sizing: border-box;
+          height: 30px;
+          font-size: 12px; }
+        #wrapper .faq-tab ul > li:last-child {
+          margin-right: 0; }
+        #wrapper .faq-tab ul > li:first-child a {
+          background: #1da1f2; }
+        #wrapper .faq-tab ul > li:nth-child(2) a {
+          background: #78c846; }
+        #wrapper .faq-tab ul > li:last-child a {
+          background: #ffb400; }
+    #wrapper .faq-tab.search {
+      display: none; }
+  #wrapper .tab-contents .no-result {
+    display: none;
+    color: #e6001e;
+    font-size: 18px;
+    margin: 70px auto 90px;
+    text-align: center;
+    overflow-wrap: break-word; }
+    #wrapper .tab-contents .no-result.active {
+      display: block; }
+  #wrapper .tab-contents #btn-faq-top {
+    width: 250px;
+    margin: 0 auto 70px;
+    cursor: pointer;
+    background: #333333;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.8);
+    display: none; }
+    #wrapper .tab-contents #btn-faq-top_inner {
+      padding: 11.5px 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      #wrapper .tab-contents #btn-faq-top_inner span {
+        position: relative;
+        color: #ffffff;
+        font-size: 18px;
+        margin-left: 11.5px; }
+        #wrapper .tab-contents #btn-faq-top_inner span::before {
+          content: '';
+          position: absolute;
+          left: -23px;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+          background-image: url(/assets/common/sprites/icons/sprite.png);
+          background-position: -54px -54px;
+          width: 21px;
+          height: 21px; }
+    #wrapper .tab-contents #btn-faq-top.active {
+      display: block; }
+  #wrapper .faq-section {
+    display: none;
+    margin-bottom: 100px; }
+    #wrapper .faq-section h3 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 15px; }
+    #wrapper .faq-section .faq-list {
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      margin-bottom: 32px; }
+      #wrapper .faq-section .faq-list li {
+        position: relative;
+        margin-top: 20px; }
+        #wrapper .faq-section .faq-list li:first-child {
+          margin-top: 0; }
+        #wrapper .faq-section .faq-list li dl {
+          position: relative;
+          padding: 0 35px;
+          font-weight: bold;
+          background: #e6e6e6;
+          border-radius: 10px; }
+          #wrapper .faq-section .faq-list li dl dt {
+            position: relative;
+            margin-bottom: 15px;
+            padding: 30px 18px 30px 40px;
+            font-size: 20px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            cursor: pointer; }
+            #wrapper .faq-section .faq-list li dl dt.open {
+              border-bottom: 1px solid #b2b2b2;
+              padding-bottom: 20px; }
+              #wrapper .faq-section .faq-list li dl dt.open::after {
+                -webkit-transform: rotate(180deg);
+                        transform: rotate(180deg); }
+              #wrapper .faq-section .faq-list li dl dt.open + dd {
+                display: block; }
+            #wrapper .faq-section .faq-list li dl dt:not(.open):last-of-type {
+              margin-bottom: 0; }
+            #wrapper .faq-section .faq-list li dl dt::before {
+              content: 'Q';
+              font-family: "Doragari NewRodinPro DB";
+              font-size: 28px;
+              position: absolute;
+              left: 0;
+              top: 31px;
+              height: 28px;
+              line-height: 1; }
+            #wrapper .faq-section .faq-list li dl dt::after {
+              content: '';
+              position: absolute;
+              right: 0;
+              top: 36px;
+              width: 18px;
+              height: 18px;
+              background: url("../../images/pc/faq/icon_trigger.png");
+              background-size: 100% auto;
+              background-repeat: no-repeat;
+              background-position: center; }
+          #wrapper .faq-section .faq-list li dl dd {
+            display: none;
+            margin-bottom: 30px;
+            position: relative;
+            padding: 0 0 30px 40px;
+            font-size: 14px;
+            font-weight: 500;
+            color: #333333; }
+            #wrapper .faq-section .faq-list li dl dd:last-child {
+              margin-bottom: 0; }
+            #wrapper .faq-section .faq-list li dl dd::before {
+              content: 'A';
+              font-family: "Doragari NewRodinPro DB";
+              font-size: 28px;
+              font-weight: 600;
+              position: absolute;
+              left: 0;
+              top: 0;
+              height: 28px;
+              line-height: 1; }
+        #wrapper .faq-section .faq-list li .icon {
+          display: block;
+          position: absolute;
+          top: -5px;
+          left: 0; }
+          #wrapper .faq-section .faq-list li .icon.not-active {
+            display: none; }
+        #wrapper .faq-section .faq-list li .is_new {
+          background: url("../../images/common/icon_new.png");
+          background-size: contain;
+          background-position: center;
+          background-repeat: no-repeat;
+          width: 42px;
+          height: 17px; }
+        #wrapper .faq-section .faq-list li .is_update {
+          background: url("../../images/common/icon_update.png");
+          background-size: contain;
+          background-position: center;
+          background-repeat: no-repeat;
+          width: 62px;
+          height: 20px; }
+      #wrapper .faq-section .faq-list.search {
+        display: block; }
+        #wrapper .faq-section .faq-list.search li dl.search-active {
+          display: block; }
+    #wrapper .faq-section.active {
+      display: block; }
+    #wrapper .faq-section.search {
+      display: block;
+      margin-bottom: 0; }
+      #wrapper .faq-section.search h3 {
+        display: none; }
+      #wrapper .faq-section.search .faq-list {
+        margin-bottom: 20px; }
+        #wrapper .faq-section.search .faq-list li {
+          display: none; }
+          #wrapper .faq-section.search .faq-list li.search-active {
+            display: block; }
+  #wrapper .faq-description {
+    margin-bottom: 100px;
+    font-family: "Doragari NewRodinPro DB"; }
+    #wrapper .faq-description.active {
+      display: none; }
+  #wrapper #error {
+    margin: 200px 0;
+    text-align: center; }
+    #wrapper #error a {
+      background-image: url(/assets/common/sprites/en-gb_faq/sprite.png);
+      background-position: 0px -134px;
+      width: 245px;
+      height: 89px;
+      display: inline-block;
+      margin-top: 20px;
+      font-size: 0;
+      color: transparent; }
+      #wrapper #error a:hover {
+        background-position: 0px -227px; }
+
+@media screen and (min-width: 1920px) {
+  body#faq {
+    background-size: 100% auto; } }
+
+#wrapper .faq-tab ul > li {
+  width: 220px; }

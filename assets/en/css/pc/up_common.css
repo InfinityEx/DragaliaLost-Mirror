@@ -1,0 +1,155 @@
+header{
+  min-width: 1200px;
+}
+body:not(#top, #news){
+  background-size: cover;
+  background-color: #f4f4f4 !important;
+}
+
+  #dragon{
+    margin-bottom: 150px;  }
+    #dragon .inner h3 {
+      margin-bottom: 180px; }
+    #dragon .inner .introduction {
+      padding-left: 5px;}
+
+#dragon .inner .link {
+  transition: opacity 1s ease-out 0.4s;
+  opacity: 0;
+}
+#dragon .inner .link .btn-detail{
+  background: none
+}
+#dragon.inview .inner .link {
+    opacity: 1;
+}
+
+/*事前登録*/
+.approach .btn_pre_registration > ul > li.store_up{
+  width: 212px;
+}
+
+.approach .btn_pre_registration > ul > li.store_up > p{
+  padding-top: 13px;
+  padding-bottom: 19px;
+}
+
+.approach .btn_pre_registration > ul > li.twitter_up{
+  width: 213px;
+  margin-left: 10px;
+}
+
+.approach .btn_pre_registration > ul > li.youtube_up{
+  width: 213px;
+  margin-left: -9px;
+}
+
+.approach .btn_pre_registration > ul > li.top10_up{
+  width: 213px;
+  height: 115px;
+  margin-left: -9px;
+  background-image: url(/assets/jp/images/pc/pre_registration/up_top10_bg.png);
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.approach .btn_pre_registration > ul > li.top10_up > .ios{
+  position: absolute;
+  bottom: 20px;
+  left: 18px;
+}
+
+.approach .btn_pre_registration > ul > li.top10_up > .android{
+  position: absolute;
+  bottom: 20px;
+  left: 89px;
+}
+
+body#pre_registration #wrapper{
+  min-height: 2800px;
+}
+
+body#pre_registration #wrapper .approach .btn_pre_registration .nintendo a {
+  background-repeat: no-repeat;
+  background-image: none;
+}
+body#pre_registration #visual #kv .text{
+  text-align: left;
+}
+body#pre_registration #visual{
+  margin-bottom: 40px;
+}
+body#pre_registration #wrapper{
+  padding-bottom: 170px;
+}
+body#pre_registration #wrapper .approach h3{
+  margin-bottom: 2px;
+  margin-top: -20px;
+}
+body#pre_registration #wrapper .approach .btn_pre_registration .nintendo{
+  display: inline-block;
+}
+body#pre_registration #wrapper .approach .btn_pre_registration .nintendo a{
+  width: 422px;
+}
+body#pre_registration #wrapper .approach .btn_pre_registration .app-list{
+  display: inline-block;
+}
+body#pre_registration #wrapper .approach .btn_pre_registration .app-list li{
+  display: block;
+}
+body#pre_registration #wrapper .approach .btn_pre_registration .app-list li .app-inner li{
+  display: inline-block;
+  margin-left: 17px;
+}
+body#pre_registration #wrapper .approach .btn_pre_registration .app-list li .app-inner li:first-child{
+  margin-left: 0px;
+}
+body#pre_registration #wrapper .approach .btn_pre_registration li{
+  padding-top: 10px;
+}
+body#pre_registration #wrapper .approach .btn_pre_registration{
+  margin-bottom: 0px;
+}
+
+body#pre_registration #reward article .grade .rank2{
+  margin-top: -55px;
+}
+body#pre_registration #reward article .grade .rank3{
+  margin-top: -23px;
+}
+body#pre_registration #reward article .grade .rank4{
+  margin-top: -21px;
+}
+body#pre_registration #reward article .grade .rank5{
+  margin-left: 120px;
+  margin-top: -60px;
+}
+body#pre_registration #reward article .eudiel{
+  top: 230px;
+  left: -100px;
+}
+body#pre_registration #reward article .grade{
+  margin-bottom: 40px;
+}
+
+body#pre_registration #reward header{
+  padding-top: 80px;
+}
+
+/*事前登録*/
+#pre_registration{
+  overflow-x: visible !important;
+}
+
+/*事前登録*/
+#pre_registration_under{
+  overflow-x: visible !important;
+}
+body#pre_registration_under #wrapper #complete .to-top{
+  padding-top: 60px;
+}
+
+body#error{
+  background-size: cover;
+}

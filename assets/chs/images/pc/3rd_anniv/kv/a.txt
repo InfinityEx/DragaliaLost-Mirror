@@ -1,0 +1,4 @@
+05_dragalia_lost.png
+a.bat
+a.txt
+catch_text.png

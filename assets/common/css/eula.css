@@ -1,0 +1,55 @@
+body#eula {
+  background-image: url("../sprites/eula/bg.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  height: 100%;
+  min-width: 1200px; }
+  body#eula #wrapper {
+    box-sizing: border-box;
+    padding-bottom: 50px; }
+    body#eula #wrapper #main{
+      position: relative;
+      margin: 0 auto;
+      text-align: center;
+      height: 942px;
+    }
+      body#eula #wrapper #main .title{
+        margin: 0 auto;
+        font-size: 24px;
+        font-weight: bold;
+        padding-top: 306px;
+      }
+      body#eula #wrapper #main .region-list{
+        margin: 0 auto;
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 15px;
+      }
+        body#eula #wrapper #main .region-list li{
+          padding-top: 4px;
+          margin: 0 auto;
+        }
+        body#eula #wrapper #main .region-list li a{
+          border-bottom: 1px solid #000;
+        }
+         
+#support-header {
+  height: 80px;
+  min-width: 1200px;
+  box-sizing: border-box; }
+  #support-header.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; }
+  #support-header .inner {
+    width: 100% }
+    #support-header .inner #logo {
+      padding-top: 18px;
+      width: 122px;
+      z-index: 10 }
+
+  body#eula footer {
+    z-index: 12;
+  }
