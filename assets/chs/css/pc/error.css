@@ -1,0 +1,14 @@
+body#error {
+  background: #f4f4f4 url("../../images/pc/error/bg.jpg") no-repeat center top;
+  min-width: 1000px; }
+  body#error #wrapper {
+    padding-top: 120px;
+    text-align: center; }
+    body#error #wrapper h1 {
+      margin-bottom: 130px; }
+    body#error #wrapper p {
+      margin-bottom: 235px; }
+
+@media screen and (min-width: 1920px) {
+  body#error {
+    background-size: cover; } }

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=375, user-scalable=0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="description" content="本格スマホアクションRPG Dragalialost【ドラガリアロスト】ドラガリはiOS、Googleplayにて好評配信中！">
+	<meta name="keywords" content="Dragalia Lost,ドラガリアロスト,ドラガリ,公式サイト,Nintendo,スマホゲーム">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://dragalialost.com/jp/special/ryuunooniwa/">
+	<meta property="og:site_name" content="Dragalia Lost">
+	<meta property="og:title" content="りゅうのおにわ | Dragalialost【ドラガリアロスト | ドラガリ】公式サイト | Nintendo">
+	<meta property="og:description" content="本格スマホアクションRPG Dragalialost【ドラガリアロスト】ドラガリはiOS、Googleplayにて好評配信中！">
+		<meta property="og:image" content="https://dragalialost.com/assets/jp/images/og_image_ro.png">
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:image" content="https://dragalialost.com/assets/jp/images/og_image_ro.png">
+		<meta property="twitter:title" content="りゅうのおにわ | Dragalialost【ドラガリアロスト | ドラガリ】公式サイト | Nintendo">
+	<meta property="twitter:description" content="本格スマホアクションRPG Dragalialost【ドラガリアロスト】ドラガリはiOS、Googleplayにて好評配信中！">
+
+<link rel="icon" type="image/png" href="/assets/common/favicon.png" sizes="32x32">
+<link rel="stylesheet" href="/assets/jp/css/pc/common.css">
+<link rel="stylesheet" href="/assets/jp/css/pc/ryuunooniwa.css">
+
+<link rel="stylesheet" href="/assets/jp/css/pc/up_common.css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery-inview@1.1.2/jquery.inview.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.0/moment.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/boombox-js@1.0.0/boombox.min.js"></script>
+<script type="text/javascript" src="/assets/common/js/pc/main.bundle.js"></script>
+<script type="text/javascript" src="/assets/common/js/pc/jquery.mb.YTPlayer.min.js"></script>
+<script type="text/javascript" src="/assets/common/js/pc/function.js"></script>
+		<title>りゅうのおにわ | Dragalialost【ドラガリアロスト | ドラガリ】公式サイト | Nintendo</title>
+
+<!-- Google Tag Manager -->
+<script>
+	if (!window.ga) {
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NKGWRS5');
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-T87ZSNJ');
+  window.dataLayer = dataLayer || [];
+  window.dataLayer.push({
+    'trackPageview': window.location.pathname,
+    'title'        : window.document.title,
+    'event'        : 'loadready'
+  });
+}
+</script>
+<!-- End Google Tag Manager -->
+<script type="text/javascript" src="/assets/common/js/pc/ryuunooniwa.bundle.js"></script>
+</head>
+<body id="ryuunooniwa">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NKGWRS5" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T87ZSNJ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<header>
+	<div id="nintendo-header">
+		<div id="nintendo-logo"><a href="https://www.nintendo.co.jp/" target="_blank" rel="noopener noreferrer"><img src="/assets/jp/images/pc/header/logo_n.png" alt="nintendo"></a></div>
+		<div id="etc">
+			<dl id="language">
+				<dt>Language</dt>
+				<dd>
+					<ul>
+						<li id="lang-jpn"><a href="/jp/" data-lang="jp">日本語</a></li>
+						<li id="lang-cht"><a href="/cht/" data-lang="cht">繁體中文</a></li>
+						<li id="lang-chs"><a href="/chs/" data-lang="chs">简体中文</a></li>
+						<li id="lang-en"><a href="/en/" data-lang="en">English(US)</a></li>
+						<li id="lang-en-gb"><a href="/en-gb/" data-lang="en-gb">English(Europe/Australia)</a></li>
+						<li id="lang-fr"><a href="/fr-ca/" data-lang="fr-ca">Français</a></li>
+					</ul>
+				</dd>
+			</dl>
+		</div>
+	</div>
+	</header>
+
+
+	<section id="wrapper">
+		<div class="header-bnr">
+			<img class="header-bnr-title-img" src="/assets/jp/images/pc/ryuunooniwa/header.png" alt="">
+			<img class="header-bnr-logo" src="/assets/jp/images/pc/ryuunooniwa/logo.png" alt="">
+			<a href="/" class="header-bnr-link-official">
+				<img src="/assets/jp/images/pc/ryuunooniwa/official_link.png" alt="">
+			</a>
+		</div>
+		<div class="main-contents">
+			<div class="header-section">
+				<div class="latest-story">
+					<img src="/assets/jp/images/pc/ryuunooniwa/latest_story_ttl.png" alt="">
+											<a href="javascript:void(0);" class="latest-story-main" data-sortnum="163">
+							<img class="latest-story-main-img" src="https://dragalialost.com/app/wp-content/uploads/2022/08/e8a308acb87913478784a925b8cd8c10.jpg" alt="">
+							<p class="caption">みんなありがとう。</p>
+						</a>
+									</div>
+				<div class="about">
+					<a href="javascript:void(0);" class="introduction-btn">
+						<img src="/assets/jp/images/pc/ryuunooniwa/introduction_bnr.png" alt="">
+					</a>
+					<a class="twitter-bnr" href="https://twitter.com/dragalialost" target="_blank" rel="noopener noreferrer">
+						<img src="/assets/jp/images/pc/ryuunooniwa/twitter_bnr.png" alt="">
+					</a>
+				</div>
+				<div class="episode1">
+					<a href="?page=11&episode=1" class="episode1-btn">
+						<img src="/assets/jp/images/pc/ryuunooniwa/episode1.png" alt="">
+					</a>
+				</div>
+			</div>
+			<ul class="img-list">
+								<li class="img-list-item">
+					<a href="javascript:void(0);" class="img-list-item-btn" data-sortnum="147">
+						<img class="img-list-item-img" src="https://dragalialost.com/app/wp-content/uploads/2022/01/93f9035024864e8c83386b470b3307df.jpg" alt="">
+						<div class="img-list-item-shadow"></div>
+						<p class="img-list-item-title">#147</p>
+						<p class="caption">こっちにおいで？</p>
+					</a>
+				</li>
+								<li class="img-list-item">
+					<a href="javascript:void(0);" class="img-list-item-btn" data-sortnum="146">
+						<img class="img-list-item-img" src="https://dragalialost.com/app/wp-content/uploads/2022/01/898d4a51d533857d3a94f1b3c2e16511.jpg" alt="">
+						<div class="img-list-item-shadow"></div>
+						<p class="img-list-item-title">#146</p>
+						<p class="caption">1杯5ルピ。</p>
+					</a>
+				</li>
+								<li class="img-list-item">
+					<a href="javascript:void(0);" class="img-list-item-btn" data-sortnum="145">
+						<img class="img-list-item-img" src="https://dragalialost.com/app/wp-content/uploads/2021/12/9038e49342d3e03347f6bc79172f7e26.jpg" alt="">
+						<div class="img-list-item-shadow"></div>
+						<p class="img-list-item-title">#145</p>
+						<p class="caption">ズズッ。</p>
+					</a>
+				</li>
+								<li class="img-list-item">
+					<a href="javascript:void(0);" class="img-list-item-btn" data-sortnum="144">
+						<img class="img-list-item-img" src="https://dragalialost.com/app/wp-content/uploads/2021/12/077f199ab0bb11a43f157c2fe7becb1b.jpg" alt="">
+						<div class="img-list-item-shadow"></div>
+						<p class="img-list-item-title">#144</p>
+						<p class="caption">進化～。</p>
+					</a>
+				</li>
+								<li class="img-list-item">
+					<a href="javascript:void(0);" class="img-list-item-btn" data-sortnum="143">
+						<img class="img-list-item-img" src="https://dragalialost.com/app/wp-content/uploads/2021/12/f7363b292d2f9aa255027dec132a53ad.jpg" alt="">
+						<div class="img-list-item-shadow"></div>
+						<p class="img-list-item-title">#143</p>
+						<p class="caption">かたづけようね。</p>
+					</a>
+				</li>
+								<li class="img-list-item">
+					<a href="javascript:void(0);" class="img-list-item-btn" data-sortnum="142">
+						<img class="img-list-item-img" src="https://dragalialost.com/app/wp-content/uploads/2021/12/5ef1c15b549c26c5accb706954cf67ae.jpg" alt="">
+						<div class="img-list-item-shadow"></div>
+						<p class="img-list-item-title">#142</p>
+						<p class="caption">いい子にしてたかな？</p>
+					</a>
+				</li>
+								<li class="img-list-item">
+					<a href="javascript:void(0);" class="img-list-item-btn" data-sortnum="141">
+						<img class="img-list-item-img" src="https://dragalialost.com/app/wp-content/uploads/2021/11/306c7ec2ea99d8c75da785ee44e714f3.jpg" alt="">
+						<div class="img-list-item-shadow"></div>
+						<p class="img-list-item-title">#141</p>
+						<p class="caption">お肉だいすき。</p>
+					</a>
+				</li>
+								<li class="img-list-item">
+					<a href="javascript:void(0);" class="img-list-item-btn" data-sortnum="140">
+						<img class="img-list-item-img" src="https://dragalialost.com/app/wp-content/uploads/2021/11/9f3093130c83005eb12782ef31232c28.jpg" alt="">
+						<div class="img-list-item-shadow"></div>
+						<p class="img-list-item-title">#140</p>
+						<p class="caption">仲良し夫婦💗</p>
+					</a>
+				</li>
+								<li class="img-list-item">
+					<a href="javascript:void(0);" class="img-list-item-btn" data-sortnum="139">
+						<img class="img-list-item-img" src="https://dragalialost.com/app/wp-content/uploads/2021/11/de697f99fdcc842eb5205504eabea27e.jpg" alt="">
+						<div class="img-list-item-shadow"></div>
+						<p class="img-list-item-title">#139</p>
+						<p class="caption">旅はいいぞ。</p>
+					</a>
+				</li>
+								<li class="img-list-item">
+					<a href="javascript:void(0);" class="img-list-item-btn" data-sortnum="138">
+						<img class="img-list-item-img" src="https://dragalialost.com/app/wp-content/uploads/2021/11/1dadc4f6a8e5b11a0f30bd4437de4a21.jpg" alt="">
+						<div class="img-list-item-shadow"></div>
+						<p class="img-list-item-title">#138</p>
+						<p class="caption">ごまかせないよ!!</p>
+					</a>
+				</li>
+								<li class="img-list-item">
+					<a href="javascript:void(0);" class="img-list-item-btn" data-sortnum="137">
+						<img class="img-list-item-img" src="https://dragalialost.com/app/wp-content/uploads/2021/11/c21143c427f56a6a1e3785c54e13f603.jpg" alt="">
+						<div class="img-list-item-shadow"></div>
+						<p class="img-list-item-title">#137</p>
+						<p class="caption">我が王💖</p>
+					</a>
+				</li>
+								<li class="img-list-item">
+					<a href="javascript:void(0);" class="img-list-item-btn" data-sortnum="136">
+						<img class="img-list-item-img" src="https://dragalialost.com/app/wp-content/uploads/2021/10/0d6a228f55e1ef61f0e47cb35836a038.jpg" alt="">
+						<div class="img-list-item-shadow"></div>
+						<p class="img-list-item-title">#136</p>
+						<p class="caption">HAPPY HALLOWEEN🎃</p>
+					</a>
+				</li>
+								<li class="img-list-item">
+					<a href="javascript:void(0);" class="img-list-item-btn" data-sortnum="135">
+						<img class="img-list-item-img" src="https://dragalialost.com/app/wp-content/uploads/2021/10/a15c64f8562e031ad5abe7c911ef349e.jpg" alt="">
+						<div class="img-list-item-shadow"></div>
+						<p class="img-list-item-title">#135</p>
+						<p class="caption">ごはん。</p>
+					</a>
+				</li>
+								<li class="img-list-item">
+					<a href="javascript:void(0);" class="img-list-item-btn" data-sortnum="134">
+						<img class="img-list-item-img" src="https://dragalialost.com/app/wp-content/uploads/2021/10/4e50eb361a4072d8169d7c0e8b414eb1.jpg" alt="">
+						<div class="img-list-item-shadow"></div>
+						<p class="img-list-item-title">#134</p>
+						<p class="caption">てんしたちの。</p>
+					</a>
+				</li>
+								<li class="img-list-item">
+					<a href="javascript:void(0);" class="img-list-item-btn" data-sortnum="133">
+						<img class="img-list-item-img" src="https://dragalialost.com/app/wp-content/uploads/2021/10/b9fb9f0818bba663487cb0e05a3a2c7c.jpg" alt="">
+						<div class="img-list-item-shadow"></div>
+						<p class="img-list-item-title">#133</p>
+						<p class="caption">遊びに来たよ。</p>
+					</a>
+				</li>
+								<li class="img-list-item">
+					<a href="javascript:void(0);" class="img-list-item-btn" data-sortnum="132">
+						<img class="img-list-item-img" src="https://dragalialost.com/app/wp-content/uploads/2021/10/449efcb58b557c2d77677f09d0ae6b76.jpg" alt="">
+						<div class="img-list-item-shadow"></div>
+						<p class="img-list-item-title">#132</p>
+						<p class="caption">3rd Anniversary!</p>
+					</a>
+				</li>
+							</ul>
+			<div class="pager"><div class="pager-prev"><a class="pager-prev-item" href="?page=1"><img src="/assets/jp/images/pc/ryuunooniwa/btn_first.png" alt=""></a><a class="pager-prev-item" href="?page=1"><img src="/assets/jp/images/pc/ryuunooniwa/btn_prev.png" alt=""></a></div><div class="pager-main"><div class="pager-main-items"><a class="pager-main-item" href="?page=2"><p class="pager-main-text">147<span>～</span>132</p></a><a class="pager-main-item" href="?page=3"><p class="pager-main-text">131<span>～</span>116</p></a><a class="pager-main-item" href="?page=4"><p class="pager-main-text">115<span>～</span>100</p></a><a class="pager-main-item" href="?page=5"><p class="pager-main-text">99<span>～</span>84</p></a><a class="pager-main-item" href="?page=6"><p class="pager-main-text">83<span>～</span>68</p></a><a class="pager-main-item" href="?page=7"><p class="pager-main-text">67<span>～</span>52</p></a><a class="pager-main-item" href="?page=8"><p class="pager-main-text">51<span>～</span>36</p></a><a class="pager-main-item" href="?page=9"><p class="pager-main-text">35<span>～</span>20</p></a><a class="pager-main-item" href="?page=10"><p class="pager-main-text">19<span>～</span>4</p></a><a class="pager-main-item" href="?page=11"><p class="pager-main-text">3<span>～</span>1</p></a></div></div><div class="pager-next"><a class="pager-prev-item" href="?page=3"><img src="/assets/jp/images/pc/ryuunooniwa/btn_next.png" alt=""></a><a class="pager-next-item" href="?page=11"><img src="/assets/jp/images/pc/ryuunooniwa/btn_end.png" alt=""></a></div></div>		</div>
+		<div class="footer-bnr">
+			<ul class="footer-bnr-list">
+				<li class="footer-bnr-list-item">
+					<a href="/">
+						<img src="/assets/jp/images/pc/ryuunooniwa/footer_logo_dragalialost.png" alt="">
+					</a>
+				</li>
+				<li class="footer-bnr-list-item">
+					<a href="https://comic.dragalialost.com/dragalialife/jp/" target="_blank" rel="noopener noreferrer">
+						<img src="/assets/jp/images/pc/ryuunooniwa/footer_bnr_yurugaria.png" alt="">
+					</a>
+				</li>
+				<li class="footer-bnr-list-item">
+					<a href="https://comic.dragalialost.com/adventurersguide/jp/" target="_blank" rel="noopener noreferrer">
+						<img src="/assets/jp/images/pc/ryuunooniwa/footer_bnr_doragari.png" alt="">
+					</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<div id="introduction-modal" class="modal">
+		<img class="introduction-modal-img" src="/assets/jp/images/pc/ryuunooniwa/introduction.png" alt="">
+		<a href="#close" rel="modal:close" class="close-btn">
+			<img src="/assets/jp/images/pc/ryuunooniwa/btn_close.png" alt="">
+		</a>
+	</div>
+	<div id="contents-modal" class="modal">
+		<div class="contents-modal-slider">
+			<a href="javascript:void(0);" class="contents-modal-slider-prev">
+				<img src="/assets/jp/images/pc/ryuunooniwa/btn_prev.png" alt="">
+			</a>
+			<div class="contents-modal-slider-main">
+				<img src="" alt="">
+			</div>
+			<a href="javascript:void(0);" class="contents-modal-slider-next">
+				<img src="/assets/jp/images/pc/ryuunooniwa/btn_next.png" alt="">
+			</a>
+		</div>
+		<p class="contents-modal-caption"></p>
+		<a href="#close" rel="modal:close" class="close-btn">
+			<img src="/assets/jp/images/pc/ryuunooniwa/btn_close.png" alt="">
+		</a>
+	</div>
+
+<footer>
+	<ul class="announce-list">
+		<li><a href="/jp/news/">お知らせ</a></li>
+		<li><a href="https://www.nintendo.co.jp/about_hp.html" target="_blank" rel="noopener noreferrer">サイトポリシー</a></li>
+		<li><a href="/jp/faq/">よくある質問</a></li>
+	</ul>
+	<div class="game-about">
+		<div class="inner">
+			<div class="detail">
+				<img src="/assets/jp/images/pc/common/icon_game.png" alt="">
+				<ul class="spec-list">
+					<li>
+						<dl>
+							<dt>タイトル</dt>
+							<dd>ドラガリアロスト</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>対応OS</dt>
+							<dd>iOS/Android&nbsp;<a class="js-country-modal" href="#">配信国はこちら</a></dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>ジャンル</dt>
+							<dd>アクションRPG</dd>
+						</dl>
+					</li>
+					<li>
+						※ダウンロード無料（一部有料のコンテンツがあります）
+					</li>
+				</ul>
+			</div>
+			<ul class="store-link">
+				<li>
+					<a href="https://itunes.apple.com/jp/app/id1352230941" target="_blank" rel="noopener noreferrer">
+						<img src="/assets/jp/images/common/btn_appstore.png" alt="App Store">
+					</a>
+				</li>
+				<li>
+					<a href="https://play.google.com/store/apps/details?id=com.nintendo.zaga" target="_blank" rel="noopener noreferrer">
+						<img src="/assets/jp/images/common/btn_googleplay.png" alt="Google Play">
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="bottom-area">
+		<div class="inner">
+			<ul class="trademark-list">
+				<li>※ゲーム内容は開発中のものです。</li>
+				<li>※端末の性能や仕様、端末固有のアプリ使用状況などにより、正常に動作しない場合があります。</li>
+				<li>※Apple および Apple ロゴは米国その他の国で登録された Apple Inc. の商標です。App Store は Apple Inc. のサービスマークです。</li>
+				<li>※Google Play および Google Play ロゴは、Google LLC の商標です。</li>
+				<li class="copyright">
+					&copy; Nintendo / Cygames				</li>
+			</ul>
+						<ul class="sns-list">
+				<li>
+											<a class="btn-tw" href="https://twitter.com/intent/tweet?text=%E3%82%8A%E3%82%85%E3%81%86%E3%81%AE%E3%81%8A%E3%81%AB%E3%82%8F+%7C+Dragalialost%E3%80%90%E3%83%89%E3%83%A9%E3%82%AC%E3%83%AA%E3%82%A2%E3%83%AD%E3%82%B9%E3%83%88+%7C+%E3%83%89%E3%83%A9%E3%82%AC%E3%83%AA%E3%80%91%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88+%7C+Nintendo&url=https%3A%2F%2Fdragalialost.com%2Fjp%2Fspecial%2Fryuunooniwa%2F&hashtags=%e3%83%89%e3%83%a9%e3%82%ac%e3%83%aa">twitter</a>
+									</li>
+				<li>
+					<a class="btn-line" href="https://social-plugins.line.me/lineit/share?url=https%3a%2f%2fdragalialost%2ecom%2fjp%2f" target="_blank" rel="noopener noreferrer">LINE</a>
+				</li>
+			</ul>
+					</div>
+	</div>
+			<a id="btn-page-top" class="js-anchor" href="#"></a>
+	</footer>
+<div id="pop-country-modal" class="modal">
+	<dl>
+		<dt>配信国/配信地域</dt>
+		<dd>
+			現在の配信国/配信地域は以下のとおりです。以下の国/地域以外では、ご利用いただけません。<br>
+			※配信国/配信地域は追加される場合があります。
+			<ul>
+				<li>日本</li>
+				<li>台湾</li>
+				<li>香港</li>
+				<li>マカオ</li>
+				<li>アメリカ合衆国</li>
+				<li>イギリス</li>
+				<li>アイルランド</li>
+				<li>カナダ</li>
+				<li>オーストラリア</li>
+				<li>ニュージーランド</li>
+				<li>シンガポール</li>
+			</ul>
+		</dd>
+	</dl>
+	<a href="#" class="btn-close" rel="modal:close"></a>
+</div>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+body#wallpaper {
+  background: url("../../images/pc/special/wallpaper/bg.jpg") no-repeat center top;
+  min-width: 1200px;
+  background-size: cover;
+  overflow-x: visible;
+  height: 100%; }
+  body#wallpaper #wrapper {
+    box-sizing: border-box;
+    padding-bottom: 120px; }
+    body#wallpaper #wrapper #main {
+      position: relative;
+      margin: 0 auto;
+      padding-top: 140px; }
+      body#wallpaper #wrapper #main .main-visual {
+        position: relative;
+        width: 1200px;
+        margin: 0 auto; }
+        body#wallpaper #wrapper #main .main-visual .category {
+          position: relative;
+          left: 65px;
+          margin-bottom: 112px;
+          width: 338px; }
+        body#wallpaper #wrapper #main .main-visual .text {
+          font-size: 24px;
+          line-height: 36px;
+          width: 1000px;
+          margin: 0 auto 20px; }
+        body#wallpaper #wrapper #main .main-visual .title {
+          position: relative;
+          top: 0px;
+          left: 100px;
+          margin-bottom: 20px;
+          width: 300px; }
+        body#wallpaper #wrapper #main .main-visual .wallpaper-list {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+          margin: 0 auto;
+          width: 1000px;
+          margin-bottom: 28px; }
+          body#wallpaper #wrapper #main .main-visual .wallpaper-list .set {
+            margin-left: 15px;
+            margin-bottom: 15px; }
+            body#wallpaper #wrapper #main .main-visual .wallpaper-list .set:nth-child(3n+1) {
+              margin-left: 0px; }
+          body#wallpaper #wrapper #main .main-visual .wallpaper-list .one-set {
+            width: 320px; }
+            body#wallpaper #wrapper #main .main-visual .wallpaper-list .one-set .thumb {
+              width: 320px;
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: center;
+                  -ms-flex-pack: center;
+                      justify-content: center;
+              margin-left: -8px;
+              margin-bottom: 0px;
+              padding: 15px 0px 20px 16px; }
+              body#wallpaper #wrapper #main .main-visual .wallpaper-list .one-set .thumb .img-wrapper {
+                position: relative; }
+                body#wallpaper #wrapper #main .main-visual .wallpaper-list .one-set .thumb .img-wrapper::after {
+                  content: '';
+                  display: block;
+                  width: 100%;
+                  height: 100%;
+                  background: #002233;
+                  -webkit-transform: rotate(-3deg);
+                          transform: rotate(-3deg);
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  z-index: 1; }
+                body#wallpaper #wrapper #main .main-visual .wallpaper-list .one-set .thumb .img-wrapper img {
+                  position: relative;
+                  z-index: 2;
+                  border: 5px solid #0b385e;
+                  background: #0b385e;
+                  max-width: 310px; }
+            body#wallpaper #wrapper #main .main-visual .wallpaper-list .one-set .btn {
+              position: relative;
+              display: inline-block;
+              background: url(../../images/pc/special/wallpaper/btn_bg_off.png) no-repeat center top;
+              text-align: center;
+              margin-left: 7px; }
+              body#wallpaper #wrapper #main .main-visual .wallpaper-list .one-set .btn:nth-child(2n+1) {
+                margin-left: 0; }
+              body#wallpaper #wrapper #main .main-visual .wallpaper-list .one-set .btn .size {
+                font-size: 14px;
+                line-height: 14px;
+                width: 154px;
+                height: 54px;
+                padding-top: 10px;
+                font-weight: bold; }
+              body#wallpaper #wrapper #main .main-visual .wallpaper-list .one-set .btn:hover {
+                background: url(../../images/pc/special/wallpaper/btn_bg_on.png) no-repeat center top; }
+                body#wallpaper #wrapper #main .main-visual .wallpaper-list .one-set .btn:hover .size {
+                  position: relative;
+                  top: 4px;
+                  left: 3px; }
+        body#wallpaper #wrapper #main .main-visual .last {
+          margin-bottom: 100px; }
+        body#wallpaper #wrapper #main .main-visual .notice {
+          width: 1000px;
+          background-color: #ccc;
+          font-size: 16px;
+          line-height: 24px;
+          border-radius: 10px;
+          margin: 0 auto;
+          padding: 15px; }
+  body#wallpaper footer {
+    z-index: 12; }

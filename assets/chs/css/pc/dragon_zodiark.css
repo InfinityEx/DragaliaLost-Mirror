@@ -1,0 +1,122 @@
+body#dragon {
+  min-width: 1200px;
+  background-size: cover;
+  overflow-x: visible;
+  height: 100%; }
+  body#dragon #wrapper {
+    box-sizing: border-box;
+    padding-bottom: 50px; }
+    body#dragon #wrapper #main{
+      position: relative;
+      margin: 0 auto;
+      padding-top: 140px;
+      height: 1288px;
+    }
+      body#dragon #wrapper #main .main-visual{
+        position: relative;
+        width: 1200px;
+        margin: 0 auto;
+      }
+        body#dragon #wrapper #main .main-visual .category{
+          position: absolute;
+          top: 0px;
+          left: 65px;
+        }
+        body#dragon #wrapper #main .main-visual .arrow .next{
+          position: absolute;
+          top: 506px;
+          left: 1076px;
+          z-index: 13;
+        }
+        body#dragon #wrapper #main .main-visual .arrow .prev{
+          position: absolute;
+          top: 506px;
+          left: 98px;
+          z-index: 13;
+        }
+    body#dragon #wrapper #inner-wrap{
+      background-position-y: 90px;
+      background-size: 100%;
+      position: relative;
+      z-index: 11;
+      margin: 0 auto -240px;
+      top: -505px;
+      height: 310px;
+    }
+     body#dragon #wrapper #inner-wrap .inner{
+      position: relative;
+      z-index: 11;
+      width: 1200px;
+    }
+
+        body#dragon #wrapper #inner-wrap .inner .text-wrap{
+          background-size: 642px 290px;
+          background-position: 65px 0px;
+          height: 290px;
+          width: 725px;
+          margin-bottom: 90px;
+        }
+          body#dragon #wrapper #inner-wrap .inner .text-wrap .text{
+            font-size: 18px;
+            padding-top: 91px;
+            padding-left: 130px;
+            line-height: 28px;
+            width: 520px;
+          }
+        body#dragon #wrapper #inner-wrap .inner .btn .dragon-list{
+          text-align: center;
+        }
+          body#dragon #wrapper #inner-wrap .inner .btn .dragon-list li{
+            display: inline-block;
+            margin-left: 5px;
+          }
+          body#dragon #wrapper #inner-wrap .inner .btn .dragon-list li:first-child{
+            margin-left: 0px;
+          }
+  body#dragon footer {
+    z-index: 12;
+  }
+/*以下 ドラゴンごとに変更*/
+/*zodiarkページ*/
+
+body.zodiark {
+  background: url("../../images/pc/dragon/common/bg.png") no-repeat center top;
+}
+body.zodiark #wrapper #main{
+  background-image: url("../../images/pc/dragon/zodiark/main_char.png"),url("../../images/pc/dragon/zodiark/bg_band.png");
+  background-repeat: no-repeat;
+  background-position: center 70px,center bottom;
+  background-size: 1920px 1163px,100%;
+}
+
+body.zodiark #wrapper #inner-wrap{
+}
+body.zodiark #wrapper #inner-wrap .inner .text-wrap{
+  background: url("../../images/pc/dragon/zodiark/text_bg.png") no-repeat left top;
+}
+    body.zodiark #wrapper #main .main-visual .name{
+      position: absolute;
+      top: 219px;
+      left: 550px;
+    }
+    body.zodiark #wrapper #main .main-visual .cv{
+      position: absolute;
+      top: 306px;
+      left: 557px;
+    }
+    body.zodiark #wrapper #main .main-visual .voice{
+      position: absolute;
+      top: 295px;
+      left: 862px;
+    }
+    body.zodiark #wrapper #main .main-visual .text{
+      position: absolute;
+      top: 407px;
+      left: 590px;
+    }
+    body.zodiark #wrapper #inner-wrap .inner .char-3d{
+    position: absolute;
+    z-index: 12;
+    top: -212px;
+    left: 668px;
+  }

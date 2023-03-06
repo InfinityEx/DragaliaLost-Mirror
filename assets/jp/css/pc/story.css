@@ -1,0 +1,54 @@
+body > header, body > footer, #app-header {
+  min-width: 1500px; }
+
+body#story {
+  background-image: url("../../images/pc/world/story/bg.jpg");
+  overflow-x: visible;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  min-width: 1500px; }
+  body#story #wrapper {
+    box-sizing: border-box;
+    padding-bottom: 50px; }
+    body#story #wrapper #main {
+      background-image: url("../../images/pc/world/story/text_bg.png");
+      background-position: 0px 315px;
+      background-repeat: no-repeat;
+      position: relative;
+      height: 1180px; }
+      body#story #wrapper #main .main-visual {
+        position: relative;
+        width: 1200px;
+        margin: 0 auto; }
+        body#story #wrapper #main .main-visual .category {
+          position: absolute;
+          top: 140px;
+          left: 65px; }
+        body#story #wrapper #main .main-visual .text {
+          padding-top: 350px;
+          padding-left: 92px;
+          margin-bottom: 82px; }
+        body#story #wrapper #main .main-visual .char {
+          position: absolute;
+          top: 162px;
+          left: 319px;
+          z-index: -1; }
+        body#story #wrapper #main .main-visual .arrow .next {
+          position: absolute;
+          top: 670px;
+          right: 26px; }
+        body#story #wrapper #main .main-visual .arrow .prev {
+          position: absolute;
+          top: 670px;
+          left: 26px; }
+        body#story #wrapper #main .main-visual .world-tab {
+          width: 1000px;
+          margin: 0 auto; }
+          body#story #wrapper #main .main-visual .world-tab li {
+            display: inline-block;
+            margin-left: 5px; }
+            body#story #wrapper #main .main-visual .world-tab li:first-child {
+              margin-left: 0px; }
+  body#story footer {
+    z-index: 12; }

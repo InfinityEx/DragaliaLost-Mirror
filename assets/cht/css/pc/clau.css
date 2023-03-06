@@ -1,0 +1,131 @@
+body#character-detail {
+  min-width: 1200px;
+  background-size: cover;
+  overflow-x: visible;
+  height: 100%; }
+  body#character-detail #wrapper {
+    box-sizing: border-box;
+    padding-bottom: 0px; }
+    body#character-detail #wrapper #main{
+      position: relative;
+      margin: 0 auto;
+      padding-top: 140px;
+      height: 1230px;
+      top: 110px;
+    }
+      body#character-detail #wrapper #main .main-visual{
+        position: relative;
+        width: 1200px;
+        margin: 0 auto;
+      }
+        body#character-detail #wrapper #main .main-visual .category{
+          position: absolute;
+          top: -110px;
+          left: 65px;
+        }
+        body#character-detail #wrapper #main .main-visual .arrow .next{
+          position: absolute;
+          top: 440px;
+          left: 1070px;
+          z-index: 13;
+        }
+        body#character-detail #wrapper #main .main-visual .arrow .prev{
+          position: absolute;
+          top: 440px;
+          left: 100px;
+          z-index: 13;
+        }
+    body#character-detail #wrapper #inner-wrap{
+      background-position-y: 90px;
+      background-size: 100%;
+      position: relative;
+      z-index: 11;
+      margin: 0 auto -150px;
+      top: -370px;
+      height: 310px;
+    }
+     body#character-detail #wrapper #inner-wrap .inner{
+      position: relative;
+      z-index: 11;
+      width: 1200px;
+      top: -40px;
+    }
+
+        body#character-detail #wrapper #inner-wrap .inner .text-wrap{
+          background-size: 642px 290px;
+          background-position: 66px 11px;
+          height: 290px;
+          width: 725px;
+          margin-bottom: 84px;
+        }
+          body#character-detail #wrapper #inner-wrap .inner .text-wrap .text{
+            font-size: 16px;
+            padding-top: 105px;
+            padding-left: 130px;
+            line-height: 28px;
+            width: 520px;
+          }
+        body#character-detail #wrapper #inner-wrap .inner .btn .character-list{
+          text-align: center;
+          width: 1000px;
+          margin: 0 auto;
+        }
+          body#character-detail #wrapper #inner-wrap .inner .btn .character-list li{
+            display: inline-block;
+            margin-left: 198px;
+          }
+          body#character-detail #wrapper #inner-wrap .inner .btn .character-list li:first-child{
+            margin-left: 0px;
+          }
+  body#character-detail footer {
+    z-index: 12;
+  }
+/*以下 ドラゴンごとに変更*/
+/*clauページ*/
+
+body.clau {
+  background: url("../../images/pc/character/common/bg.jpg") no-repeat center top;
+}
+body.clau #wrapper #main{
+  background-image: url("../../images/pc/character/clau/bg_band.png"),url("../../images/pc/character/clau/main_char.png");
+  background-repeat: no-repeat;
+  background-position: center bottom,center 80px;
+  background-size: 100%,1920px 1097px;
+}
+
+body.clau #wrapper #inner-wrap{
+}
+body.clau #wrapper #inner-wrap .inner .text-wrap{
+  background: url("../../images/pc/character/clau/text_bg.png") no-repeat left top;
+}
+    body.clau #wrapper #main .main-visual .subtitle{
+      position: absolute;
+      top: 100px;
+      left: 605px;
+    }
+    body.clau #wrapper #main .main-visual .name{
+      position: absolute;
+      top: 154px;
+      left: 617px;
+    }
+    body.clau #wrapper #main .main-visual .cv{
+      position: absolute;
+      top: 235px;
+      left: 619px;
+    }
+    body.clau #wrapper #main .main-visual .voice{
+      position: absolute;
+      top: 233px;
+      left: 911px;
+    }
+    body.clau #wrapper #main .main-visual .text{
+      position: absolute;
+      top: 324px;
+      left: 617px;
+    }
+    body.clau #wrapper #inner-wrap .inner .char-3d{
+    position: absolute;
+    z-index: 12;
+    top: -184px;
+    left: 580px;
+  }

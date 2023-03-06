@@ -1,0 +1,134 @@
+body#character-detail {
+  min-width: 1200px;
+  background-size: cover;
+  overflow-x: visible;
+  height: 100%; }
+  body#character-detail #wrapper {
+    box-sizing: border-box;
+    padding-bottom: 0px;
+    padding-top: 30px; }
+    body#character-detail #wrapper #main{
+      position: relative;
+      margin: 0 auto;
+      padding-top: 140px;
+      height: 1200px;
+      top: 110px;
+    }
+      body#character-detail #wrapper #main .main-visual{
+        position: relative;
+        width: 1200px;
+        margin: 0 auto;
+      }
+        body#character-detail #wrapper #main .main-visual .category{
+          position: absolute;
+          top: -90px;
+          left: 67px;
+        }
+        body#character-detail #wrapper #main .main-visual .arrow .next{
+          position: absolute;
+          top: 440px;
+          left: 1070px;
+          z-index: 13;
+        }
+        body#character-detail #wrapper #main .main-visual .arrow .prev{
+          position: absolute;
+          top: 440px;
+          left: 100px;
+          z-index: 13;
+        }
+    body#character-detail #wrapper #inner-wrap{
+      background-position-y: 90px;
+      background-size: 100%;
+      position: relative;
+      z-index: 11;
+      margin: 0 auto -150px;
+      top: -360px;
+      height: 310px;
+    }
+     body#character-detail #wrapper #inner-wrap .inner{
+      position: relative;
+      z-index: 11;
+      width: 1200px;
+      top: -40px;
+    }
+
+        body#character-detail #wrapper #inner-wrap .inner .text-wrap{
+          background-size: 613px 267px;
+          background-position: 90px 25px;
+          height: 290px;
+          width: 725px;
+          margin-bottom: 75px;
+        }
+          body#character-detail #wrapper #inner-wrap .inner .text-wrap .text{
+            font-size: 16px;
+            padding-top: 95px;
+            padding-left: 130px;
+            line-height: 28px;
+            width: 520px;
+            font-family: arial;
+            letter-spacing: 0.8px;
+          }
+        body#character-detail #wrapper #inner-wrap .inner .btn .character-list{
+          text-align: center;
+          width: 1000px;
+          margin: 0 auto;
+        }
+          body#character-detail #wrapper #inner-wrap .inner .btn .character-list li{
+            display: inline-block;
+            margin-left: 202px;
+          }
+          body#character-detail #wrapper #inner-wrap .inner .btn .character-list li:first-child{
+            margin-left: 0px;
+          }
+  body#character-detail footer {
+    z-index: 12;
+  }
+/*以下 ドラゴンごとに変更*/
+/*nhaamページ*/
+
+body.nhaam {
+  background: url("../../images/pc/character/common/bg.jpg") no-repeat center top;
+}
+body.nhaam #wrapper #main{
+  background-image: url("../../images/pc/character/nhaam/bg_band.png"),url("../../images/pc/character/nhaam/main_char.png");
+  background-repeat: no-repeat;
+  background-position: center bottom,center 50px;
+  background-size: 100%,1920px 1097px;
+}
+
+body.nhaam #wrapper #inner-wrap{
+}
+body.nhaam #wrapper #inner-wrap .inner .text-wrap{
+  background: url("../../images/pc/character/nhaam/text_bg.png") no-repeat left top;
+}
+    body.nhaam #wrapper #main .main-visual .subtitle{
+      position: absolute;
+      top: 100px;
+      left: 590px;
+    }
+    body.nhaam #wrapper #main .main-visual .name{
+      position: absolute;
+      top: 135px;
+      left: 621px;
+    }
+    body.nhaam #wrapper #main .main-visual .cv{
+      position: absolute;
+      top: 293px;
+      left: 618px;
+    }
+    body.nhaam #wrapper #main .main-visual .voice{
+      position: absolute;
+      top: 268px;
+      left: 907px;
+    }
+    body.nhaam #wrapper #main .main-visual .text{
+      position: absolute;
+      top: 203px;
+      left: 619px;
+    }
+    body.nhaam #wrapper #inner-wrap .inner .char-3d{
+    position: absolute;
+    z-index: 12;
+    top: -176px;
+    left: 680px;
+  }
