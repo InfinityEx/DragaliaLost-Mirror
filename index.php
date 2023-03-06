@@ -1,9 +1,11 @@
 <?php
     $languages=substr($_SERVER['HTTP_ACCEPT_LANGUAGE'],0,5);
     $lang=$_SERVER['HTTP_ACCEPT_LANGUAGE'];
-    echo 'Client Languages Scanner:<br>';
+    echo '<h3>Client Languages & User-Agent Scanner:</h3>';
     echo 'Your Languages: ',$languages;
-    echo '<hr/>','HTTP_ACCEPT_LANGUAGE: ',$lang;
+    echo '<br>','HTTP_ACCEPT_LANGUAGE: ',$lang;
+    echo '<hr/>','User-Agent: ',$_SERVER['HTTP_USER_AGENT'];
+
     switch($languages){
         case 'zh-CN':
             header("refresh:5;url=http://ftp6569110.host127.sanfengyun.cn/chs/index.html");
