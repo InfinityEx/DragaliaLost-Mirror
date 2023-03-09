@@ -1,5 +1,5 @@
 body#homepage {
-    background: #f4f4f4 url("../bg.jpg") no-repeat center top;
+    background: #f4f4f4 url("../bg.jpg")repeat-y center top;
     /* background-size: 667px;
     min-width: 320px; }
     body#homepage #contents {
@@ -27,7 +27,14 @@ body#homepage #gamename {
     font-weight: bolder;
     line-height: 70px;
 }
-
+#panel.isFixed{
+    position:fixed;
+    top:0;
+}
+body.span{
+    display: inline-block;
+    border-bottom: 5px solid #0f96ea;
+}
 
 
 
