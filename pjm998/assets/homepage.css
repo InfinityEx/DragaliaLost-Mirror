@@ -1,0 +1,38 @@
+body#homepage {
+    background: #f4f4f4 url("../bg.jpg") no-repeat center top;
+    /* background-size: 667px;
+    min-width: 320px; }
+    body#homepage #contents {
+        padding-top: 90px;
+        text-align: center; }
+    body#homepage #contents h1 {
+        margin-bottom: 173px; }
+    body#homepage #contents h1 img {
+        width: 210px;
+        height: 80px; }
+    body#homepage #contents p {
+        margin-bottom: 142px; }
+    body#homepage #contents p img {
+        width: 141;
+        height: 84px;  */
+}
+
+body#homepage #header {
+    background-image: linear-gradient(to bottom,rgb(255, 0, 0),#ffffff00);
+}
+body#homepage #gamename {
+    color:white;
+    font-family:"Agency FB";
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: 70px;
+}
+
+
+
+
+/* @media screen and (min-width:667px){
+    body#news{
+        background-size: contain;
+    }
+} */
