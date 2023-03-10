@@ -34,6 +34,7 @@ body#homepage {
 body #header {
     /* background-image: linear-gradient(to bottom,rgb(255, 0, 0),#ffffff00); */
     background-image: linear-gradient(to bottom,rgb(1, 120, 199),#ffffff00);
+    min-width: 1200px;
     height: 120px;
 }
 body #header_inner {
@@ -49,7 +50,7 @@ body #header_inner {
 #introduction {
     color: white;
     font-family:'微软雅黑', Courier, monospace;
-    padding-left: 600px;
+    padding-left: 200px;
     text-shadow: 6px 6px 9px black;
     height: 110px;
 }
@@ -79,15 +80,6 @@ body.span{
     display: inline-block;
     border-bottom: 5px solid #0f96ea;
 }
-
-/* 
- * 导航栏样式表
-*/
-#panel.isFixed{
-    position:fixed;
-    top:0;
-}
-
 
 /* @media screen and (min-width:667px){
     body#news{
