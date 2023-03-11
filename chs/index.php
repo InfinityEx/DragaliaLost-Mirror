@@ -9,13 +9,13 @@
             <meta name="description" content="王道动作RPG手游　 Dragalia Lost ～失落的龙约～ 已于iOS、Googleplay正式上线！">
         <meta name="keywords" content="Dragalia Lost,失落的龙约,官方网站,Nintendo,手机游戏">
         <meta property="og:type" content="website">
-        <meta property="og:url" content="https://dragalialost.com/chs/">
+        <meta property="og:url" content="http://dlmirror.xyz/chs/">
         <meta property="og:site_name" content="Dragalia Lost">
         <meta property="og:title" content="Dragalia Lost ～失落的龙约～ 官方网站 | Nintendo">
         <meta property="og:description" content="王道动作RPG手游　 Dragalia Lost ～失落的龙约～ 已于iOS、Googleplay正式上线！">
-            <meta property="og:image" content="https://dragalialost.com/assets/chs/images/og_image_dl.png">
+            <meta property="og:image" content="http://dlmirror.xyz/assets/chs/images/og_image_dl.png">
         <meta property="twitter:card" content="summary_large_image">
-        <meta property="twitter:image" content="https://dragalialost.com/assets/chs/images/og_image_dl.png">
+        <meta property="twitter:image" content="http://dlmirror.xyz/assets/chs/images/og_image_dl.png">
             <meta property="twitter:title" content="Dragalia Lost ～失落的龙约～ 官方网站 | Nintendo">
         <meta property="twitter:description" content="王道动作RPG手游　 Dragalia Lost ～失落的龙约～ 已于iOS、Googleplay正式上线！">
     
@@ -108,12 +108,12 @@
     
             <ul class="slider" dir="rtl">
                     <li>
-                <a href="https://comic.dragalialost.com/plotsynopsis/chs/" target="_blank" rel="noopener noreferrer">
+                <a href="http://dlmirror.xyz/plotsynopsis/chs/" target="_blank" rel="noopener noreferrer">
                     <img src="/app/wp-content/uploads/2020/09/f81e5d3d53586faa38cf02d680415072.png" alt="">
                 </a>
             </li>
                     <li>
-                <a href="https://comic.dragalialost.com/dragalialife/chs/">
+                <a href="http://dlmirror.xyz/dragalialife/chs/" target="_blank">
                     <img src="/app/wp-content/uploads/2019/09/42e37486ce9ef68f3dfb452153ce5153.png" alt="">
                 </a>
             </li>
@@ -160,8 +160,8 @@
                             <div class="menu-special">
                                 <ul>
                                     <li><a href="/chs/special/movie/">视频</a></li>
-                                    <li><a href="https://comic.dragalialost.com/dragalialife/chs/" target="_blank" rel="noopener noreferrer">轻松龙约</a></li>
-                                    <li><a href="https://comic.dragalialost.com/plotsynopsis/chs/" target="_blank" rel="noopener noreferrer">纳姆的波澜冒险记</a></li>
+                                    <li><a href="http://dlmirror.xyz/dragalialife/chs/" target="_blank" rel="noopener noreferrer">轻松龙约</a></li>
+                                    <li><a href="http://dlmirror.xyz/plotsynopsis/chs/" target="_blank" rel="noopener noreferrer">纳姆的波澜冒险记</a></li>
                                     <li><a href="/chs/special/wallpaper/">特制壁纸</a></li>
                                 </ul>
                             </div>
