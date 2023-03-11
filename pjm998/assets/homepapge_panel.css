@@ -4,7 +4,7 @@
 div#navi {
     width: 100%;
     min-width: 1200px;
-    height: 60px;
+    height: 181px;
     /* background-image: linear-gradient(to bottom,rgb(255, 255, 255),rgba(224, 224, 224, 0.973)); */
     z-index: 99999;
     font-size: 14px;
@@ -21,9 +21,9 @@ div#navi_list {
     justify-content: space-between;
     max-width: 1240px;
     min-width: 900px;
-    height: 60px;
+    height: 181px;
     margin:0 auto;
-    padding: 0 20px;
+    padding:0 20px;
     box-sizing: border-box;
     line-height: 1;
 }
@@ -32,12 +32,13 @@ div#navi_list {
     display:list-item;
     text-align: center;
     padding-left: 120px;
+    padding-right: 120px;
     /* transform: translate(40%,40%); */
     width:64px;
 }
 #navi_list>#home {
-    height: 64px;
-    width: 64px;
+    height: 181px;
+    width: 181px;
 }
 #housepic:hover {
     background: (url("./download_blob.png")) no-repeat left top;
