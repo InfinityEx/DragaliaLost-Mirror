@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en" class="en">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content="An action RPG that brings together humans and dragons!">
+	<meta name="keywords" content="Notte’s Super Rad Plot Synopsis,Dragalia Lost,Nintendo,smartphone,smart device,tablets,">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Notte’s Super Rad Plot Synopsis | Dragalia Lost | Nintendo</title>
+
+	<!--  Open Graph Protocol -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://comic.dragalialost.com/plotsynopsis/en/">
+	<meta property="og:image" content="https://comic.dragalialost.com/assets/en/images/plotsynopsis/og_img.png">
+	<meta property="og:site_name" content="Notte’s Super Rad Plot Synopsis">
+	<meta property="og:description" content="An action RPG that brings together humans and dragons!">
+	<meta property="og:title" content="Notte’s Super Rad Plot Synopsis | Dragalia Lost | Nintendo">
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:image" content="https://comic.dragalialost.com/assets/en/images/plotsynopsis/og_img.png">
+	<meta property="twitter:title" content="Notte’s Super Rad Plot Synopsis | Dragalia Lost | Nintendo">
+	<meta property="twitter:description" content="An action RPG that brings together humans and dragons!">
+	<meta name="format-detection" content="telephone=no">
+	<!--  End Open Graph Protocol -->
+
+	<link rel="icon" type="image/png" href="/assets/favicon.png" sizes="32x32">
+	<link rel="stylesheet" href="/assets/common/css/plotsynopsis.css?1670337025">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.0/underscore-min.js"></script>
+	<script type="text/javascript">
+		window.APIHOST = 'https://comic.dragalialost.com';
+		window.lang = 'en';
+		window.type = 'plotsynopsis';
+	</script>
+	<script src="/assets/common/js/common.js"></script>
+
+			<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-M9M4X34');</script>
+	<!-- End Google Tag Manager -->
+	</head>
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M9M4X34" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div class="wrapper">
+	<div class="header">
+		<div id="nintendo-header">
+	<div id="nintendo-logo"><a href="https://www.nintendo.com/" target="_blank">
+		<img src="/assets/common/images/topber_logo_pc.png" alt="" class="pc_only">
+		<img src="/assets/common/images/topber_logo_sp.png" alt="" class="sp_only">
+	</a></div>
+	<dl id="language" class="pc_only">
+		<dt>Language</dt>
+		<dd>
+			<ul>
+				<li id="lang-jpn"><a href="/plotsynopsis/jp/" data-lang="jp">日本語</a></li>
+				<li id="lang-cht"><a href="/plotsynopsis/cht/" data-lang="cht">繁體中文</a></li>
+				<li id="lang-chs"><a href="/plotsynopsis/chs/" data-lang="chs">简体中文</a></li>
+				<li id="lang-en"><a href="/plotsynopsis/en/" data-lang="en">English(US)</a></li>
+				<li id="lang-en-gb"><a href="/plotsynopsis/en-gb/" data-lang="en-gb">English(Europe/Australia)</a></li>
+			</ul>
+		</dd>
+	</dl>
+	<form id="language_sp" class="sp_only">
+		<select name="lang">
+			<option value="">Language</option>
+			<option value="jp">日本語</option>
+			<option value="cht">繁體中文</option>
+			<option value="chs">简体中文</option>
+			<option value="en">English(US)</option>
+			<option value="en-gb">English(Europe/Australia)</option>
+		</select>
+	</form>
+</div>
+		<a href="https://dragalialost.com/en/" target="_blank" rel="noopener noreferrer" class="header_link_official">
+			<img src="/assets/en/images/plotsynopsis/official_link.png" alt="">
+		</a>
+		<img src="/assets/en/images/plotsynopsis/header_pc.png" alt="" class="header_title_img pc_only">
+		<img src="/assets/en/images/plotsynopsis/header_sp.png" alt="" class="header_title_img sp_only">
+	</div>
+	<!--/.header-->
+	<div class="mv section"></div>
+	<!--/.mv-->
+	<div class="main section">
+		<div id="top">
+			<ul class="card_box"></ul>
+			<!--/.card_box-->
+			<div class="card_pager"></div>
+			<!--/.card_pager-->
+		</div>
+		<div id="detail" style="display:none;">
+			<div class="detail_pager"></div>
+			<!--/.detail_pager-->
+			<div class="manga"></div>
+			<!--/.manga-->
+			<div class="detail_pager"></div>
+			<!--/.detail_pager-->
+			<div class="detail_bottom"></div>
+		</div>
+	</div>
+	<!--/.main-->
+	<div class="footer">
+		<div class="section">
+			<ul class="footer_bnr">
+				<li class="footer_bnr_item">
+					<a href="https://dragalialost.com/en/" target="_blank" rel="noopener noreferrer">
+						<img src="/assets/en/images/common/footer_logo_dragalialost.png" alt="">
+					</a>
+				</li>
+				<li class="footer_bnr_item">
+					<a href="/dragalialife/en/" target="_blank" rel="noopener noreferrer">
+						<img class="moverimg" src="/assets/en/images/common/footer_bnr_yurugaria_off.png" alt="">
+					</a>
+				</li>
+				<li class="footer_bnr_item">
+					<a href="/adventurersguide/en/" target="_blank" rel="noopener noreferrer" class="bnr_doragari">
+						<img class="moverimg" src="/assets/en/images/common/footer_bnr_doragari_off.png" alt="">
+					</a>
+				</li>
+				<li class="footer_bnr_item">
+					<a href="/plotsynopsis/en/" target="_blank" rel="noopener noreferrer">
+						<img class="moverimg" src="/assets/en/images/common/footer_bnr_plotsynopsis_off.png?200923" alt="">
+					</a>
+				</li>
+			</ul>
+			<ul class="footer_agreement">
+				<li><a href="https://dragalialost.com/en/news/" target="_blank" rel="noopener noreferrer">News</a></li>
+<li><a href="https://www.nintendo.com/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
+<li><a href="https://dragalialost.com/en/faq/" target="_blank" rel="noopener noreferrer"> Inquiries</a></li>
+<li><a href="https://www.nintendo.com/interest-based-ads-policy" target="_blank" rel="noopener noreferrer"> Interest-Based Ads</a></li>
+			</ul>
+			<div class="trademark">
+				<div class="esbr-img">
+	<img src="/assets/en/images/common/esbr.png" alt="">
+</div>
+<p>Game content is still in development.</p>
+<p>Certain specifications and features of your device may affect the game's performance.</p>
+<p>Persistent Internet and compatible smartphone required. Data charges may apply.</p>
+<p>Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc.</p>
+<p>Google Play and the Google Play logo are trademarks of Google LLC.</p>
+			</div>
+			<ul class="footer_foot">
+				<li class="footer_foot_copy">&copy; Nintendo / Cygames</li>
+			</ul>
+			<a href="javascript:void(0);" id="js-pageTop" class="pageTop u-alpha">
+				<img src="/assets/common/images/btn_pagetop_pc_off.png" alt="" class="moverimg">
+			</a>
+		</div>
+	</div>
+	<!--/.footer-->
+</div>
+<!--  /.wrapper -->
+
+<script type="text/template" id='tplList'>
+	<% _.each(items, function(i){ %>
+	<li class="card">
+		<a href="#detail/<%= i.id %>">
+			<div class="card_imgwrap">
+				<div class="card_title"># <%= i.episode_num %></div>
+				<div class="card_frame">
+					<div class="card_img">
+						<img src="<%= i.thumbnail_l %>" alt="">
+					</div>
+					<div class="card_no">
+						<div>
+							<span><%= i.title %></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</a>
+	</li>
+	<% }); %>
+</script>
+<script type="text/template" id='tplTopPager'>
+	<% if (pager.isPagerSlider) { %>
+		<div class="card_pager_prev">
+			<div class="card_pager_out">
+				<a class="pager" href="javascript:void(0);" data-pageset="<%= pager.first %>"></a>
+			</div>
+			<div class="card_pager_in">
+				<a class="pager" href="javascript:void(0);" data-pageset="<%= pager.older %>"></a>
+			</div>
+		</div>
+	<% } %>
+	<div class="card_pager_main">
+		<% _.each(pager.pager, function(i){ %>
+			<div>
+				<a href="javascript:void(0);" class="items<% if (i.current) { %> current<% } %>" data-pageid="<%= i.pageId %>"><%= i.indexText %></a>
+			</div>
+		<% }); %>
+	</div>
+	<% if (pager.isPagerSlider) { %>
+		<div class="card_pager_next">
+			<div class="card_pager_in"><a class="pager" href="javascript:void(0);" data-pageset="<%= pager.newer %>"></a></div>
+			<div class="card_pager_out"><a class="pager" href="javascript:void(0);" data-pageset="<%= pager.latest %>"></a></div>
+		</div>
+	<% } %>
+</script>
+<script type="text/template" id='tplDetailPager'>
+	<div class="detail_pager_prev">
+		<% if (id !== prev_plotsynopsis.id) { %>
+			<a href="#detail/<%= prev_plotsynopsis.id %>"><span># <%= prev_plotsynopsis.episode_num %></span></a>
+		<% } %>
+	</div>
+	<div class="detail_pager_main">
+		<a href="#!"><span>To Top Page</span></a>
+	</div>
+	<div class="detail_pager_next">
+		<% if (id !== next_plotsynopsis.id) { %>
+			<a href="#detail/<%= next_plotsynopsis.id %>"><span># <%= next_plotsynopsis.episode_num %></span></a>
+		<% } %>
+	</div>
+</script>
+<script type="text/template" id="tplManga">
+	<img src="<%= plotsynopsis %>" alt="">
+</script>
+<script type="text/template" id="tplShare">
+	<div class="detail_share">Share</div>
+	<ul class="detail_sns sns">
+		<li>
+			<a href="http://www.facebook.com/share.php?u=https://comic.dragalialost.com/plotsynopsis/en/detail/<%= id %>" onclick="window.open(encodeURI(decodeURI(this.href)), 'FBwindow', 'width=554, height=470, menubar=no, toolbar=no, scrollbars=yes'); return false;" rel="nofollow"><img src="/assets/common/images/icon_facebook.png" alt="facebook"></a>
+		</li>
+		<li>
+			<a href="http://twitter.com/share?text=Notte’s Super Rad Plot Synopsis <%= episode_num %> <%= title %>%0a&amp;url=https://comic.dragalialost.com/plotsynopsis/en/detail/<%= id %>&amp;hashtags=DragaliaLost" onclick="window.open(encodeURI(decodeURI(this.href)), 'tweetwindow', 'width=650, height=470, personalbar=0, toolbar=0, scrollbars=1, sizable=1'); return false;" rel="nofollow"><img src="/assets/common/images/icon_twitter.png" alt="twitter"></a>
+		</li>
+	</ul>
+</script>
+</body>
+</html>
