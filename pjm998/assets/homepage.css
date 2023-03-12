@@ -1,4 +1,4 @@
-ul{margin: 0;padding: 0;}
+/* ul{margin: 0;padding: 0;} */
 
 /* 
  * 主要元素样式
@@ -10,11 +10,11 @@ img {
 a {
     text-decoration: none;
     background-color: transparent;
-
+}
 /*
  * 顶部样式表
 */
-}
+
 body#homepage {
     background: #f4f4f4 url("../bg.jpg")repeat-y center top;
     /* background-size: 667px;

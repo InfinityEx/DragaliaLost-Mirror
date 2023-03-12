@@ -5,8 +5,20 @@
         <link rel="icon" type="image/ico" href="./main.ico">
         <link rel="stylesheet" href="./assets/homepage.css">
         <link rel="stylesheet" href="./assets/homepapge_panel.css">
+        <link rel="stylesheet" href="./assets/3dpic.css">
         <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.4.1.min.js"></script>
         <script type="text/javascript" src="./assets/homepage.js"></script>
+        <script type="text/javascript" src="./assets/jquery.min.js"></script>
+        <script type="text/javascript" src="./assets/zturn.js"></script>
+        <script type="text/javascript">
+            var aa=new zturn({
+                id:"zturn",
+                opacity:0.9,
+                width:382,
+                Awidth:1024,
+                scale:0.9
+            })
+        </script>
         <title>Dragalia_Unity2D</title>
     </head>
     <h1>页面建设中......</h1>
@@ -30,16 +42,41 @@
             <div id="navi_inner">
                 <nav id="global_navi">
                     <ul id="navi_list">
-                        <li id="home">
-                            <a href="./index.html">
-                                <img id="homepic" src="./assets/home.png" alt="home">
-                            </a>
-                        </li>
+                        <div id="menu">
+                            <li id="home">
+                                <a href="./index.html">
+                                    <img id="homepic" src="./assets/home.png" alt="home">
+                                </a>
+                            </li>
+                            <li id="history">
+                                <a href="./index.html">
+                                    <img id="historypic" src="./assets/history.png" alt="history">
+                                </a>
+                            </li>
+                        </div>
                     </ul>
                 </nav>
             </div>
         </div>
-        
+        <br><br>
+
+        <!-- 图片展示区 -->
+        <div class="fakebody">
+            <div class="container">
+                <div class="cards-wrap">
+                    <div class="cards">
+                        <img src="./assets/game_0.png">
+                    </div>
+                    <div class="cards">
+                        <img src="./assets/game_1.png">
+                    </div>
+                    <div class="cards">
+                        <img src="./assets/game_2.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 下载按钮 -->
         <br>p<br>
         <br>p<br>
         <br>p<br>
