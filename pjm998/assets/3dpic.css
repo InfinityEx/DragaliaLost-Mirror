@@ -20,7 +20,7 @@
     position: absolute;
     transform-style: preserve-3d;
     transform: rotateY(0) translateZ(-500px);
-    animation: carousel 15s infinite cubic-bezier(0.77,0,0.175,0.25);
+    animation: carousel 12s infinite cubic-bezier(0.77,0,0.175,0.3);
 }
 
 .cards {
@@ -53,7 +53,7 @@
 
 @keyframes carousel{
     0%, 20% {
-        transform: translateZ("-500px") rotateY(0);
+        transform: translateZ(-500px) rotateY(0);
     }
     45% {
         transform: translateZ(-500px) rotateY(-120deg);

@@ -1,0 +1,32 @@
+/* 下载模块样式表 */
+#Download {
+    display: inline;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-width: 900px;
+    width: 100px;
+    margin:0 auto;
+}
+#Download_list {
+    overflow:visible;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#Download>ul,li{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#Download_list>ul>a {
+    font-size: 20px;
+    padding: 1% 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
