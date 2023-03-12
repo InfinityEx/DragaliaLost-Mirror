@@ -1,7 +1,7 @@
 /* 
  * 导航栏样式表
 */
-div#navi {
+#navi {
     width: 100%;
     min-width: 1000px;
     height: 181px;
@@ -10,54 +10,20 @@ div#navi {
 }
 #navi_inner {
     overflow:visible;
-}
-div#navi_list {
-    /* display: -webkit-box;
-    display: -ms-flexbox; */
-    overflow:visible;
-    display: list-item;
-    /* -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify; */
-    justify-content: space-between;
-    max-width: 1000px;
-    min-width: 900px;
-    height: 181px;
-    margin:0 auto;
-    /* padding:0 20px; */
-    box-sizing: border-box;
-    /* line-height: 1; */
     justify-content: center;
     align-items: center;
-}
-div#menu{
-    display:inline;
-    /* overflow:visible; */
-    list-style:none;
     text-align: center;
+}
+
+#menu{
+    display:inline;
+    margin:0 auto;
+}
+#home,#history {
+    display: inline;
     justify-content: center;
     align-items: center;
-    padding-left: 25%;
-    padding-right: 25%;
-    height: 181px;
-    width: 181px;
-}
-#home, #history {
-    display: inline;
-    list-style-type: none;
+    text-align: center;
     padding-left: 5%;
     padding-right: 5%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
-#home>a img{
-    /* overflow: visible; */
-    align-items: center;
-}
-/* #housepic:hover {
-    padding-left: 120px;
-    background: (url("./download_blob.png")) no-repeat left top;
-} */

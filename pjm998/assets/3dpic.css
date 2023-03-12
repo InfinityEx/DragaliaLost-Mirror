@@ -20,7 +20,7 @@
     position: absolute;
     transform-style: preserve-3d;
     transform: rotateY(0) translateZ(-500px);
-    animation: carousel 3s infinite cubic-bezier(0.77,0,0.175,1)
+    animation: carousel 15s infinite cubic-bezier(0.77,0,0.175,0.25);
 }
 
 .cards {
@@ -53,15 +53,15 @@
 
 @keyframes carousel{
     0%, 20% {
-        transform: translateZ(-500px),rotateY(0);
+        transform: translateZ("-500px") rotateY(0);
     }
     45% {
-        transform: translateZ(-500px),rotateY(-120deg);
+        transform: translateZ(-500px) rotateY(-120deg);
     }
     75% {
-        transform: translateZ(-500px),rotateY(-240deg);
+        transform: translateZ(-500px) rotateY(-240deg);
     }
     100% {
-        transform: translateZ(-500px),rotateY(-360deg);
+        transform: translateZ(-500px) rotateY(-360deg);
     }
 }
