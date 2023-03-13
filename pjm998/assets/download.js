@@ -1,5 +1,5 @@
 // Blob Download
-function blobDownload(){
+function fblobDownload(){
     // 请求获取release地址
     let jhr=new XMLHttpRequest();
     let rurl="https://gitee.com/api/v5/repos/cxasm/notepad--/releases/latest";
