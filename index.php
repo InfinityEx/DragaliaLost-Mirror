@@ -1,12 +1,27 @@
 <?php
+    @header("Content-type:text/html; charset=utf-8");
     //网站调试阶段_客户端语言及UA标识等信息检测
     $languages=substr($_SERVER['HTTP_ACCEPT_LANGUAGE'],0,5);
     $lang=$_SERVER['HTTP_ACCEPT_LANGUAGE'];
-    echo '<h3>Client Languages & User-Agent Scanner:</h3>';
-    echo 'Your Languages: ',$languages;
-    echo '<br>','HTTP_ACCEPT_LANGUAGE: ',$lang;
-    echo '<hr/>','User-Agent: ',$_SERVER['HTTP_USER_AGENT'];
-
+    $os=$_SERVER['HTTP_USER_AGENT'];
+    if (preg_match('/Windows NT/i',$os)){
+        $device='Windows';
+        $device_allowed=1;
+    }else if(preg_match('/Andorid/i',$os)){
+        $device='Andorid';
+        $device_allowed=0;
+    }else if(preg_match('/iPhone OS/i',$os)){
+        $device='iPhone';
+        $device_allowed=0;
+    }else{
+        $device='Unknown Device';
+        $device_allowed=0;
+    }
+    echo '<h2 style="color:red;"><b>Client Languages & User-Agent Scanner:</b></h2>';
+    echo '<hr/><b>Your Language:</b> ',$languages;
+    echo '<br>','<b>HTTP_ACCEPT_LANGUAGE:</b> ',$lang;
+    echo '<br><hr/>','<b>Your Device:</b> ',$device;
+    echo '<br>','<b>User-Agent:</b> ',$os;
     // /**
     //  * 发送post请求
     //  * @param string $url 请求地址
@@ -36,18 +51,36 @@
     // send_post('https://api.sanfengyun.com/www/break.php?', $post_data);
     
     //静态页面跳转
-    switch($languages){
-        case 'zh-CN':
-            header("refresh:5;url=http://dlmirror.xyz/chs/index.html");
-            break;
-        case 'zh-TW':
-            header("refresh:5;url=http://dlmirror.xyz/cht/index.html");
-            break;
-        case 'en-US':
-            header("refresh:5;url=http://dlmirror.xyz/en/index.html");
-            break;
-        default:
-            header("refresh:5;url=http://dlmirror.xyz/jp/index.html");
-            break;
-    }
+    if ($device_allowed==1){
+        switch($languages){
+            case 'zh-CN':
+                header("refresh:5;url=http://dlmirror.xyz/chs/index.php");
+                break;
+            case 'zh-TW':
+                header("refresh:5;url=http://dlmirror.xyz/cht/index.html");
+                break;
+            case 'en-US':
+                header("refresh:5;url=http://dlmirror.xyz/en/index.html");
+                break;
+            default:
+                header("refresh:5;url=http://dlmirror.xyz/jp/index.html");
+                break;
+        }
+    }else if($device_allowed==0){
+        echo '<br><br><br>Sorry! May your device is not supported, we have closed the auto refresh.But you can still browse the page forced.<br><br>';
+        switch($languages){
+            case 'zh-CN':
+                echo '<a href="http://dlmirror.xyz/chs/index.html">http://dlmirror.xyz/chs/index.html</a>';
+                break;
+            case 'zh-TW':
+                echo '<a href="http://dlmirror.xyz/cht/index.html">http://dlmirror.xyz/cht/index.html</a>';
+                break;
+            case 'en-US':
+                echo '<a href="http://dlmirror.xyz/en/index.html">http://dlmirror.xyz/en/index.html</a>';
+                break;
+            default:
+            echo '<a href="http://dlmirror.xyz/jp/index.html">http://dlmirror.xyz/jp/index.html</a>';
+                break;
+        }
+    } 
 ?>

@@ -1,0 +1,33 @@
+$(document).ready(function(){
+    // 鼠标悬停
+    //homepic
+    $("#homepic").mouseover(function(){
+        $("#homepic").stop(true,true)
+        $("#homepic").animate({opacity:'0'},200,function(){
+            $("#homepic").attr('src','./assets/home_active.png')
+        })
+        $("#homepic").animate({opacity:'1'},650)
+    });
+    $("#homepic").mouseout(function(){
+        $("#homepic").stop(true,true)
+        $("#homepic").animate({opacity:'0'},200,function(){
+            $("#homepic").attr('src','./assets/home.png')
+        })
+        $("#homepic").animate({opacity:'1'},650)
+    });
+    //historypic
+    $("#historypic").mouseover(function(){
+        $("#historypic").stop(true,true)
+        $("#historypic").animate({opacity:'0'},200,function(){
+            $("#historypic").attr('src','./assets/history_active.png')
+        })
+        $("#historypic").animate({opacity:'1'},650)
+    });
+    $("#historypic").mouseout(function(){
+        $("#historypic").stop(true,true)
+        $("#historypic").animate({opacity:'0'},200,function(){
+            $("#historypic").attr('src','./assets/history.png')
+        })
+        $("#historypic").animate({opacity:'1'},650)
+    });
+});

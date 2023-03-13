@@ -1,0 +1,67 @@
+/* 3D轮播图 */
+.fakebody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* background-color: #f1f2f6; */
+}
+.container {
+    position: relative;
+    perspective: 1200px;
+    width: 1200px;
+    height: 460px;
+    /* background-color: lightgreen; */
+}
+
+.cards-wrap {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transform: rotateY(0) translateZ(-500px);
+    animation: carousel 12s infinite cubic-bezier(0.77,0,0.175,0.3);
+}
+
+.cards {
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards:nth-child(1){
+    /* background-color: ; */
+    transform: rotateY(0) translateZ(500px);
+}
+
+.cards:nth-child(2){
+    /* background-color: ; */
+    transform: rotateY(120deg) translateZ(500px);
+}
+
+.cards:nth-child(3){
+    /* background-color: ; */
+    transform: rotateY(240deg) translateZ(500px);
+}
+
+@keyframes carousel{
+    0%, 20% {
+        transform: translateZ(-500px) rotateY(0);
+    }
+    45% {
+        transform: translateZ(-500px) rotateY(-120deg);
+    }
+    75% {
+        transform: translateZ(-500px) rotateY(-240deg);
+    }
+    100% {
+        transform: translateZ(-500px) rotateY(-360deg);
+    }
+}
