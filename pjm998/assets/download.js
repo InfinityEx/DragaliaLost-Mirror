@@ -1,42 +1,36 @@
 // Blob Download
-function fblobDownload(){
-    // 请求获取release地址
+function bdl(){
+    // get json data
     let jhr=new XMLHttpRequest();
-    let rurl="https://gitee.com/api/v5/repos/cxasm/notepad--/releases/latest";
-    jdata=""
+    // let rurl="https://gitee.com/api/v5/repos/cxasm/notepad--/releases/latest"
+    let rurl="https://api.github.com/repos/MaaAssistantArknights/MaaAssistantArknights/releases/latest"
     jhr.open('GET',rurl,true);
-    jhr.send();
+    jhr.send()
+    let ajson
     jhr.onreadystatechange=function(){
-        if(jhr.readyState==4 && jhr.status===200){
-            var ajson=jhr.responseText;
-            // console.log(json);
+        jhr.onprogress=function(e){
+            let percent=Math.floor(e.loaded/e.total*100)
+            document.getElementsByClassName("btn btn-secondary").item("a").innerText=`下载中:${percent}%`
         }
-        return ajson;
+        if(jhr.readyState==4 && jhr.status===200){
+            ajson=jhr.responseText
+            let obj=JSON.parse(ajson)
+            // let url=obj["assets"][0]["browser_download_url"]
+            let url=obj["assets"][3]["browser_download_url"]
+            let fname=obj["assets"][3]["name"]
+            getData(url,fname)
+            // jhr.send()
+        }
     }
-    jdata=jhr.onreadystatechange.
-    console.log(jdata)
-    var obj=JSON.parse(JSON.stringify(jdata));
-    console.log(obj);
-    var url=obj[0]["assets"]//[0]["browser_download_url"]
-    console.log(url)
-    // let xhr = new XMLHttpRequest();
-    // xhr.open('GET', url, true);
-    // xhr.onprogress = function (e) {
-    //     let percent = Math.floor( e.loaded / e.total * 100); // 下载进度
-    //     console.log(percent, '进度');
-    // };
-    // xhr.send();
-    // xhr.responseType = "arraybuffer";
-    // xhr.onreadystatechange = event => {
-    //     if(xhr.readyState == 4){
-    //         if (xhr.status == 200){
-    //             const fileName = 'fileName';
-    //             let blob = new Blob([xhr.response], {type: 'application/zip'}); // 文件类型
-    //             const downLoadLink = document.createElement('a');
-    //             downLoadLink.download = fileName;
-    //             downLoadLink.href = URL.createObjectURL(blob);
-    //             downLoadLink.click();
-    //         }
-    //     }
-    // }
+}
+function getData(url,fname){
+    const durl=url+'?response-content-type=application/octet-stream'
+    const name=fname
+    const a=document.createElement('a')
+    a.href=durl
+    a.download=name
+    document.body.appendChild(a)
+    a.click()
+    document.body.removeChild(a)
+    document.getElementsByClassName("btn btn-secondary").item("a").innerText='Blob下载'
 }
