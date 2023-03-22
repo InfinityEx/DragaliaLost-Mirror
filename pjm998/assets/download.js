@@ -37,13 +37,14 @@ function bdl(){
             ajson=jhr.responseText
             let obj=JSON.parse(ajson)
             // let url=obj["assets"][0]["browser_download_url"]
-            let url="https://ghproxy.com/"+obj["assets"][3]["browser_download_url"]
+            // let url="https://ghproxy.com/"+obj["assets"][3]["browser_download_url"]
+            let url="https://d2d.dlmirror.workers.dev/down/https://gitee.com/cxasm/notepad--/releases/download/v2.0/Notepad--v2.0.0-Installer.exe"
             let fname=obj["assets"][3]["name"]
             // let url='./mmd.zip'
             console.log(url)
             //`${url}?response-content-type=application/octet-stream`
             let xhr=new XMLHttpRequest()
-            xhr.open('POST',url,true)
+            xhr.open('GET',url,true)
             xhr.responseType="blob"
             xhr.withCredentials=true
             // xhr.setRequestHeader('Access-Control-Allow-Origin', '*')
