@@ -9,13 +9,13 @@
             <meta name="description" content="王道动作RPG手游　 Dragalia Lost ～失落的龙约～ 已于iOS、Googleplay正式上线！">
         <meta name="keywords" content="Dragalia Lost,失落的龙约,官方网站,Nintendo,手机游戏">
         <meta property="og:type" content="website">
-        <meta property="og:url" content="http://dlmirror.xyz/chs/">
+        <meta property="og:url" content="http://home.dlmirror.ren/chs/">
         <meta property="og:site_name" content="Dragalia Lost">
         <meta property="og:title" content="Dragalia Lost ～失落的龙约～ 官方网站 | Nintendo">
         <meta property="og:description" content="王道动作RPG手游　 Dragalia Lost ～失落的龙约～ 已于iOS、Googleplay正式上线！">
-            <meta property="og:image" content="http://dlmirror.xyz/assets/chs/images/og_image_dl.png">
+            <meta property="og:image" content="http://home.dlmirror.ren/assets/chs/images/og_image_dl.png">
         <meta property="twitter:card" content="summary_large_image">
-        <meta property="twitter:image" content="http://dlmirror.xyz/assets/chs/images/og_image_dl.png">
+        <meta property="twitter:image" content="http://home.dlmirror.ren/assets/chs/images/og_image_dl.png">
             <meta property="twitter:title" content="Dragalia Lost ～失落的龙约～ 官方网站 | Nintendo">
         <meta property="twitter:description" content="王道动作RPG手游　 Dragalia Lost ～失落的龙约～ 已于iOS、Googleplay正式上线！">
     
@@ -34,7 +34,7 @@
     <script type="text/javascript" src="/assets/common/js/pc/jquery.mb.YTPlayer.min.js"></script>
     <script type="text/javascript" src="/assets/common/js/pc/function.js"></script>
             <!-- <title>Dragalia Lost ～失落的龙约～ 官方网站 | Nintendo</title> -->
-            <title>Dragalia Lost ～失落的龙约～ 镜像站_静态预览页</title>
+            <title>Dragalia Lost ～失落的龙约～ 镜像站</title>
     
     <!-- Google Tag Manager -->
     <script>
@@ -79,10 +79,14 @@
     
     <div class="top-modal">
         <!-- <img src="/assets/chs/images/pc/top/notice1.png"> -->
-        <h1>欢迎访问失落的龙约镜像站</h1>
-        <p>由于Github Page只能生成静态页面，因此申请了免费的PHP空间来测试可行性。</p>
-        <p>目前支持简中和繁中页面的自动跳转，新闻是保存的官网最后的json数据，由于没有修改内容，所以显示的图片仍然是官网的。</p>
-        <p>会出现部分新闻没有图片的情况。</p>
+        <h1>欢迎访问失落的龙约镜像站</h1><br>
+        <h3>各位好，欢迎访问失落的龙约镜像站，我是時無。</h3><br>
+        <h3>经过一番周折，网站终于成功搭建好并正常上线了。尽管失落的龙约已经关服，官方网站也删的一干二净，但是我个人不希望这些<br>
+            记忆就这样轻易远去，因此我以我个人的力量复原了曾经的官网和漫画站点，同时我也尽可能还原了3周年纪念页面。不过由于我本人<br>
+            不是程序员科班出身且能力有限，因此可能会有很多地方我实现不了，当然，如果你愿意帮助我也可以前往仓库提交Issues或<br>
+            Pull Request，也是基于这几点原因，网站的复原可能有不尽人意的地方，希望大家能够谅解，谢谢。
+        </h3><br>
+        <h3>最后，感谢每一个喜欢龙约的你。</h3>
     </div>	
     <!-- <div class="top-modal">
         <img src="/assets/chs/images/pc/top/notice.png">
@@ -108,12 +112,12 @@
     
             <ul class="slider" dir="rtl">
                     <li>
-                <a href="http://dlmirror.xyz/plotsynopsis/chs/" target="_blank" rel="noopener noreferrer">
+                <a href="http://home.dlmirror.ren/plotsynopsis/chs/" target="_blank" rel="noopener noreferrer">
                     <img src="/app/wp-content/uploads/2020/09/f81e5d3d53586faa38cf02d680415072.png" alt="">
                 </a>
             </li>
                     <li>
-                <a href="http://dlmirror.xyz/dragalialife/chs/" target="_blank">
+                <a href="http://home.dlmirror.ren/dragalialife/chs/" target="_blank">
                     <img src="/app/wp-content/uploads/2019/09/42e37486ce9ef68f3dfb452153ce5153.png" alt="">
                 </a>
             </li>
@@ -160,8 +164,10 @@
                             <div class="menu-special">
                                 <ul>
                                     <li><a href="/chs/special/movie/">视频</a></li>
-                                    <li><a href="http://dlmirror.xyz/dragalialife/chs/" target="_blank" rel="noopener noreferrer">轻松龙约</a></li>
-                                    <li><a href="http://dlmirror.xyz/plotsynopsis/chs/" target="_blank" rel="noopener noreferrer">纳姆的波澜冒险记</a></li>
+                                    <li><a href="http://home.dlmirror.ren/adventurersguide/chs/" target="_blank" rel="noopener noreferrer">失落的龙约上手方法</a></li>
+                                    <li><a href="http://home.dlmirror.ren/dragalialife/chs/" target="_blank" rel="noopener noreferrer">轻松龙约</a></li>
+                                    <li><a href="http://home.dlmirror.ren/plotsynopsis/chs/" target="_blank" rel="noopener noreferrer">纳姆的波澜冒险记</a></li>
+                                    <li><a href="http://home.dlmirror.ren/chs/3rd_anniv" target="_blank" rel="noopener noreferrer">3周年特设页面</a></li>
                                     <li><a href="/chs/special/wallpaper/">特制壁纸</a></li>
                                 </ul>
                             </div>
