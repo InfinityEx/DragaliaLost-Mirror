@@ -20,7 +20,7 @@
     echo '<h2 style="color:red;"><b>Client Languages & User-Agent Scanner:</b></h2>';
     echo '<hr/><b>Your Language:</b> ',$languages;
     echo '<br>','<b>HTTP_ACCEPT_LANGUAGE:</b> ',$lang;
-    echo '<br><hr/>','<b>Your Device:</b> ',$device;
+    echo '<br><hr/>','<b>Your Operation System:</b> ',$device;
     echo '<br>','<b>User-Agent:</b> ',$os;
     // /**
     //  * 发送post请求
@@ -54,32 +54,32 @@
     if ($device_allowed==1){
         switch($languages){
             case 'zh-CN':
-                header("refresh:5;url=http://dlmirror.xyz/chs/index.php");
+                header("refresh:5;url=http://home.dlmirror.ren/chs/index.php");
                 break;
             case 'zh-TW':
-                header("refresh:5;url=http://dlmirror.xyz/cht/index.html");
+                header("refresh:5;url=http://home.dlmirror.ren/cht/index.html");
                 break;
             case 'en-US':
-                header("refresh:5;url=http://dlmirror.xyz/en/index.html");
+                header("refresh:5;url=http://home.dlmirror.ren/en/index.html");
                 break;
             default:
-                header("refresh:5;url=http://dlmirror.xyz/jp/index.html");
+                header("refresh:5;url=http://home.dlmirror.ren/jp/index.html");
                 break;
         }
     }else if($device_allowed==0){
         echo '<br><br><br>Sorry! May your device is not supported, we have closed the auto refresh.But you can still browse the page forced.<br><br>';
         switch($languages){
             case 'zh-CN':
-                echo '<a href="http://dlmirror.xyz/chs/index.html">http://dlmirror.xyz/chs/index.html</a>';
+                echo '<a href="http://home.dlmirror.ren/chs/index.html">http://home.dlmirror.ren/chs/index.html</a>';
                 break;
             case 'zh-TW':
-                echo '<a href="http://dlmirror.xyz/cht/index.html">http://dlmirror.xyz/cht/index.html</a>';
+                echo '<a href="http://home.dlmirror.ren/cht/index.html">http://home.dlmirror.ren/cht/index.html</a>';
                 break;
             case 'en-US':
-                echo '<a href="http://dlmirror.xyz/en/index.html">http://dlmirror.xyz/en/index.html</a>';
+                echo '<a href="http://home.dlmirror.ren/en/index.html">http://home.dlmirror.ren/en/index.html</a>';
                 break;
             default:
-            echo '<a href="http://dlmirror.xyz/jp/index.html">http://dlmirror.xyz/jp/index.html</a>';
+            echo '<a href="http://home.dlmirror.ren/jp/index.html">http://home.dlmirror.ren/jp/index.html</a>';
                 break;
         }
     } 
