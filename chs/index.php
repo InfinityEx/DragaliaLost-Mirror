@@ -1,4 +1,10 @@
 <?php
+    $icp=<<<EOF
+    <div id="icp"><br><br>
+    <p style="text-align:center;font-size:12px;color:white;display:block;">镜像站仅供学习交流使用，镜像站所有内容版权均属于Nintendo&amp;Cygames</p>
+    <a href="https://beian.miit.gov.cn" target="_blank" style="text-align:center;font-size:12px;color:white;display:block;">湘ICP备2023005674号-1</a></div>
+EOF;
+
     $htmldata=<<<EOF
     <!DOCTYPE html>
     <html lang="zh-Hans">
@@ -310,6 +316,7 @@
                         </li>
                                 </ul>
                         </div>
+                {$icp}
         </div>
             <a id="btn-page-top" class="js-anchor" href="#"></a>
         </footer>
