@@ -7,8 +7,8 @@
     if (preg_match('/Windows NT/i',$os)){
         $device='Windows';
         $device_allowed=1;
-    }else if(preg_match('/Andorid/i',$os)){
-        $device='Andorid';
+    }else if(preg_match('/Android/i',$os)){
+        $device='Android';
         $device_allowed=0;
     }else if(preg_match('/iPhone OS/i',$os)){
         $device='iPhone';
