@@ -168,6 +168,11 @@ EOF;
                             <img src="/assets/chs/images/pc/common/btn_nav_dragon_off.png" alt="DRAGON">
                         </a>
                     </li>
+                    <li class="gamesystem">
+                        <a href="/chs/gamesystem/" class="">
+                            <img src="/assets/chs/images/pc/common/btn_nav_gamesystem_off.png" alt="GAMESYSTEM">
+                        </a>
+                    </li>
                     <li class="special">
                         <div class="">
                             <img src="/assets/chs/images/pc/common/btn_nav_special_off.png" alt="SPECIAL">
