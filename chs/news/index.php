@@ -9,13 +9,13 @@
             <meta name="description" content="王道动作RPG手游　 Dragalia Lost ～失落的龙约～ 已于iOS、Googleplay正式上线！">
         <meta name="keywords" content="Dragalia Lost,失落的龙约,官方网站,Nintendo,手机游戏">
         <meta property="og:type" content="website">
-        <meta property="og:url" content="http://dlmirror.xyz/chs/">
+        <meta property="og:url" content="http://home.dlmirror.ren/chs/">
         <meta property="og:site_name" content="Dragalia Lost">
         <meta property="og:title" content="新闻 | Dragalia Lost ～失落的龙约～ 官方网站 | Nintendo">
         <meta property="og:description" content="王道动作RPG手游　 Dragalia Lost ～失落的龙约～ 已于iOS、Googleplay正式上线！">
-            <meta property="og:image" content="http://dlmirror.xyz/assets/chs/images/og_image_dl.png">
+            <meta property="og:image" content="http://home.dlmirror.ren/assets/chs/images/og_image_dl.png">
         <meta property="twitter:card" content="summary_large_image">
-        <meta property="twitter:image" content="http://dlmirror.xyz/assets/chs/images/og_image_dl.png">
+        <meta property="twitter:image" content="http://home.dlmirror.ren/assets/chs/images/og_image_dl.png">
             <meta property="twitter:title" content="新闻 | Dragalia Lost ～失落的龙约～ 官方网站 | Nintendo">
         <meta property="twitter:description" content="王道动作RPG手游　 Dragalia Lost ～失落的龙约～ 已于iOS、Googleplay正式上线！">
 
@@ -25,11 +25,11 @@
     <link rel="stylesheet" href="/assets/chs/css/pc/news.css">
 
     <link rel="stylesheet" href="/assets/chs/css/pc/up_common.css">
-    <script type="text/javascript" src="http://dlmirror.xyz/jquery.min.js"></script>
-    <script type="text/javascript" src="http://dlmirror.xyz//jquery.inview.min.js"></script>
-    <script type="text/javascript" src="http://dlmirror.xyz//slick.min.js"></script>
-    <script type="text/javascript" src="http://dlmirror.xyz//moment.min.js"></script>
-    <script type="text/javascript" src="http://dlmirror.xyz//boombox.min.js"></script>
+    <script type="text/javascript" src="/jquery.min.js"></script>
+    <script type="text/javascript" src="/jquery.inview.min.js"></script>
+    <script type="text/javascript" src="/slick.min.js"></script>
+    <script type="text/javascript" src="/moment.min.js"></script>
+    <script type="text/javascript" src="/boombox.min.js"></script>
     <script type="text/javascript" src="/assets/common/js/pc/main.bundle.js"></script>
     <script type="text/javascript" src="/assets/common/js/pc/jquery.mb.YTPlayer.min.js"></script>
     <script type="text/javascript" src="/assets/common/js/pc/function.js"></script>

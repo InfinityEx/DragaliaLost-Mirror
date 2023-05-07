@@ -1,0 +1,19 @@
+{
+	"data_headers": {
+		"result_code": 1
+	},
+	"data": {
+		"information": {
+			"article_id": 9903,
+			"category_name": "公告",
+			"pr_category_id": "1",
+			"title_name": "关于龙约快照获取",
+			"message": "<div>失落的龙约快照获取请前往：<a href='https://web.archive.org'>https://web.archive.org</a> &nbsp;&nbsp;[中国大陆境内无法访问，请自行寻找方案]</div><br><div>找到搜索框后，输入需要查找的网页地址，即可查看已保存时间点的网页快照。</div><br><div>具体格式为：https://<a style='color:red;'><主机名></a>/<a style='color:#78C846;'><语种></a>/<a style='color:#66DCFF;'><父目录></a>/<a style='color:#FF99FF;'><子目录></a>/<a style='color:#FF9955;'>[id号]</a></div><div>例如：https://<a style='color:red;'>dragalialost.com</a>/<a style='color:#78C846;'>chs</a>/<a style='color:#66DCFF;'>news</a>/<a style='color:#FF99FF;'>detail</a>/<a style='color:#FF9955;'>2975</a></div><br><div>主机名：</div><div>dragalialost.com</div><div>comic.dragalialost.com</div><br><div>语种：</div><div>chs</div><div>cht</div><div>en</div><div>en-gb</div><div>fr-ca</div><div>jp</div><br><div>已知目录(dragalialost.com)：</div><div>2nd_anniv</div><div>3rd_anniv</div><div>character</div><div>character/clau</div><div>character/elphyllis</div><div>character/hero</div><div>character/lucas</div><div>character/nhaam</div><div>character/ranzarve</div><div>character/zethia</div><div>dragon</div><div>dragon/burnhild</div><div>dragon/jupiter</div><div>dragon/mercury</div><div>dragon/midgardsormr</div><div>dragon/zodiark</div><div>faq</div><div>gamesystem</div><div>news</div><div>news/detail</div><div>news/event</div><div>news/important</div><div>news/information</div><div>news/maintenance</div><div>news/update</div><div>special</div><div>special/movie</div><div>special/ryuunooniwa</div><div>special/wallpaper</div><div>world</div><div>world/chart</div><div>world/history</div><div>world/history_parttwo</div><div>world/kingdom</div><div>world/story</div><br><div>已知目录(comic.dragalialost.com)：</div><div>adventurersguide</div><div>dragalialife</div><div>plotsynopsis</div>",
+			"start_time": 1538460000,
+			"prev_article_id": "9902",
+			"next_article_id": "2975",
+			"image_path": "",
+			"update_time": 1539317453
+		}
+	}
+}
