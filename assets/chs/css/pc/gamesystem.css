@@ -1,0 +1,275 @@
+body > header, body > footer, #app-header {
+    min-width: 1300px; }
+  
+  body#gamesystem {
+    background: url("/assets/chs/images/pc/gamesystem/bg.jpg") no-repeat center top;
+    min-width: 1200px;
+    background-size: cover;
+    height: 100%; }
+  
+  body#gamesystem #wrapper {
+    box-sizing: border-box;
+    padding-bottom: 50px; }
+  
+  body#gamesystem #wrapper #main {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 140px;
+    height: 3218px;
+    background: url("/assets/chs/images/pc/gamesystem/band.png") no-repeat center top;
+    background-size: 100%;
+    background-position-y: 170px; }
+  
+  body#gamesystem #wrapper #main .main-visual {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    height: 860px; }
+  
+  body#gamesystem #wrapper #main .main-visual .category {
+    position: relative;
+    left: 65px;
+    margin-bottom: 100px;
+    display: inline-block;
+    z-index: 1; }
+  
+  body#gamesystem #wrapper #main .main-visual .cap-movie {
+    width: 344px;
+    height: 610px;
+    margin-left: 100px;
+    z-index: 2; }
+  
+  body#gamesystem #wrapper #main .main-visual .char {
+    position: absolute;
+    top: -180px;
+    left: 147px; }
+  
+  body#gamesystem #wrapper #main .main-visual .text {
+    position: absolute;
+    top: 427px;
+    left: 465px;
+    z-index: 1; }
+  
+  body#gamesystem #wrapper #main .section1 {
+    position: relative;
+    width: 1205px;
+    margin: 0 auto;
+    height: 620px;
+    background: url("/assets/chs/images/pc/gamesystem/section1_bg.png") no-repeat center top;
+    background-position-y: 85px; }
+  
+  body#gamesystem #wrapper #main .section1 .cap {
+    position: absolute;
+    top: 18px;
+    left: 630px;
+    z-index: 1; }
+  
+  body#gamesystem #wrapper #main .section1 .cap-title {
+    position: absolute;
+    top: 8px;
+    left: 610px;
+    z-index: 1; }
+  
+  body#gamesystem #wrapper #main .section1 .char1 {
+    position: absolute;
+    top: 22px;
+    left: 920px; }
+  
+  body#gamesystem #wrapper #main .section1 .char2 {
+    position: absolute;
+    top: 28px;
+    left: -24px; }
+  
+  body#gamesystem #wrapper #main .section1 .text1 {
+    position: absolute;
+    top: 235px;
+    left: 100px;
+    z-index: 1; }
+  
+  body#gamesystem #wrapper #main .section1 .text2 {
+    position: absolute;
+    top: 360px;
+    left: 100px;
+    z-index: 1; }
+  
+  body#gamesystem #wrapper #main .section2 {
+    position: relative;
+    width: 1205px;
+    margin: 0 auto;
+    height: 620px;
+    background: url("/assets/chs/images/pc/gamesystem/section2_bg.png") no-repeat center top;
+    background-position-y: 76px; }
+  
+  body#gamesystem #wrapper #main .section2 .cap {
+    position: absolute;
+    top: 8px;
+    left: 283px;
+    z-index: 1; }
+  
+  body#gamesystem #wrapper #main .section2 .cap-title {
+    position: absolute;
+    top: -2px;
+    left: 270px;
+    z-index: 1; }
+  
+  body#gamesystem #wrapper #main .section2 .char1 {
+    position: absolute;
+    top: -35px;
+    left: 19px; }
+  
+  body#gamesystem #wrapper #main .section2 .char2 {
+    position: absolute;
+    top: 35px;
+    left: 874px; }
+  
+  body#gamesystem #wrapper #main .section2 .text1 {
+    position: absolute;
+    top: 231px;
+    left: 599px;
+    z-index: 1; }
+  
+  body#gamesystem #wrapper #main .section2 .text2 {
+    position: absolute;
+    top: 298px;
+    left: 599px;
+    z-index: 1; }
+  
+  body#gamesystem #wrapper #main .section3 {
+    position: relative;
+    width: 1205px;
+    margin: 0 auto;
+    height: 620px;
+    background: url("/assets/chs/images/pc/gamesystem/section3_bg.png") no-repeat center top;
+    background-position-y: 68px; }
+  
+  body#gamesystem #wrapper #main .section3 .cap1 {
+    position: absolute;
+    top: -2px;
+    left: 509px;
+    z-index: 1; }
+  
+  body#gamesystem #wrapper #main .section3 .cap-title {
+    position: absolute;
+    top: -12px;
+    left: 496px;
+    z-index: 1; }
+  
+  body#gamesystem #wrapper #main .section3 .cap2 {
+    position: absolute;
+    top: -2px;
+    left: 819px;
+    z-index: 1; }
+  
+  body#gamesystem #wrapper #main .section3 .cap-title2 {
+    position: absolute;
+    top: -12px;
+    left: 806px;
+    z-index: 1; }
+  
+  body#gamesystem #wrapper #main .section3 .char1 {
+    position: absolute;
+    top: -35px;
+    left: 218px; }
+  
+  body#gamesystem #wrapper #main .section3 .char2 {
+    position: absolute;
+    top: 10px;
+    left: 86px; }
+  
+  body#gamesystem #wrapper #main .section3 .text1 {
+    position: absolute;
+    top: 213px;
+    left: 98px;
+    z-index: 1; }
+  
+  body#gamesystem #wrapper #main .section3 .text2 {
+    position: absolute;
+    top: 276px;
+    left: 100px;
+    z-index: 1; }
+  
+  body#gamesystem #wrapper #main .section4 {
+    position: relative;
+    width: 1205px;
+    margin: 0 auto;
+    height: 620px;
+    background: url("/assets/chs/images/pc/gamesystem/section4_bg.png") no-repeat center top;
+    background-position-y: 57px; }
+  
+  body#gamesystem #wrapper #main .section4 .cap1 {
+    position: absolute;
+    top: -12px;
+    left: 100px;
+    z-index: 1; }
+  
+  body#gamesystem #wrapper #main .section4 .cap-title {
+    position: absolute;
+    top: -22px;
+    left: 87px;
+    z-index: 1; }
+  
+  body#gamesystem #wrapper #main .section4 .cap2 {
+    position: absolute;
+    top: -12px;
+    left: 410px;
+    z-index: 1; }
+  
+  body#gamesystem #wrapper #main .section4 .cap-title2 {
+    position: absolute;
+    top: -22px;
+    left: 397px;
+    z-index: 1; }
+  
+  body#gamesystem #wrapper #main .section4 .char1 {
+    position: absolute;
+    top: -23px;
+    left: 574px; }
+  
+  body#gamesystem #wrapper #main .section4 .char2 {
+    position: absolute;
+    top: -30px;
+    left: 967px; }
+  
+  body#gamesystem #wrapper #main .section4 .text1 {
+    position: absolute;
+    top: 176px;
+    left: 707px;
+    z-index: 1; }
+  
+  body#gamesystem #wrapper #main .section4 .text2 {
+    position: absolute;
+    top: 297px;
+    left: 712px;
+    z-index: 1; }
+  
+  body#gamesystem footer {
+    z-index: 12; }
+  
+  body#gamesystem #wrapper #main .main-visual .cap-movie iframe {
+    -webkit-transition-duration: 0ms !important;
+            transition-duration: 0ms !important; }
+  
+  body#gamesystem #wrapper #main .main-visual .cap-movie .mbYTP_wrapper {
+    -webkit-transition-duration: 0ms !important;
+            transition-duration: 0ms !important; }
+  
+  /*
+       FILE ARCHIVED ON 11:31:07 Jun 17, 2022 AND RETRIEVED FROM THE
+       INTERNET ARCHIVE ON 13:50:34 May 16, 2023.
+       JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+  
+       ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+       SECTION 108(a)(3)).
+  */
+  /*
+  playback timings (ms):
+    captures_list: 136.484
+    exclusion.robots: 0.068
+    exclusion.robots.policy: 0.059
+    RedisCDXSource: 27.018
+    esindex: 0.008
+    LoadShardBlock: 93.275 (3)
+    PetaboxLoader3.datanode: 528.974 (5)
+    load_resource: 643.477 (2)
+    PetaboxLoader3.resolve: 192.072 (2)
+  */

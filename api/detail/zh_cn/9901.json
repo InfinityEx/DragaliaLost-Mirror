@@ -1,0 +1,19 @@
+{
+	"data_headers": {
+		"result_code": 1
+	},
+	"data": {
+		"information": {
+			"article_id": 9901,
+			"category_name": "公告",
+			"pr_category_id": "1",
+			"title_name": "镜像站更新记录",
+			"message": "<div><b>镜像站更新记录：</b><br><br>zh-CN：<br>=>>>第一次还原页面时间：Nov.24th 2021(2021.11.24)<br><br>zh-TW/en-us/en/ja-jp:<br>待定</div>",
+			"start_time": 1683460800,
+			"prev_article_id": "9902",
+			"next_article_id": "2975",
+			"image_path": "",
+			"update_time": 1683460800
+		}
+	}
+}
