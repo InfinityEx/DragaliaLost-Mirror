@@ -1,7 +1,7 @@
 <?php
-    include_once '../layout/chs/hp.php';
+    include '../layout/chs/hp.php';
 
-    $a='header';
+    $dl_chs_header='dl_header';
     //show headers
-    $a();
+    $dl_chs_header();
 ?>
