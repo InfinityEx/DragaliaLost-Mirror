@@ -54,7 +54,7 @@
     if ($device_allowed==1){
         switch($languages){
             case 'zh-CN':
-                header("refresh:5;url=http://home.dlmirror.ren/chs/index.php");
+                header("refresh:5;url=/chs/index.php");
                 break;
             case 'zh-TW':
                 header("refresh:5;url=http://home.dlmirror.ren/cht/index.html");
