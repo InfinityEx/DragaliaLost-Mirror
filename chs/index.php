@@ -7,6 +7,6 @@
 
     //show headers
     $dl_chs_header();
-    $dl_chs_body();
+    $dl_chs_body('top');
     $dl_chs_footer();
 ?>
