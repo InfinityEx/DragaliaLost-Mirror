@@ -12,7 +12,9 @@
 
     //include new
     include '../template/top.php';
+    echo "<!DOCTYPE html>";
     // $lang='lang';
     lang('chs');
     head_type('chs','top');
+    body_start('top');
 ?>
