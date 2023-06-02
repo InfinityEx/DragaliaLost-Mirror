@@ -12,9 +12,16 @@
 
     //include new
     include '../template/top.php';
+    $lang='chs';
+    $type='top';
+
     echo "<!DOCTYPE html>";
-    // $lang='lang';
-    lang('chs');
-    head_type('chs','top');
-    body_start('top');
+    lang($lang);
+    head_type($lang,$type);
+    body_start($type);
+    modal($lang);
+    slider($lang,$type);
+    top_contents($lang,$type);
+    top_news($lang);
+    footer($lang);
 ?>
