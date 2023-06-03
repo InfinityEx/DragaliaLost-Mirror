@@ -29,26 +29,30 @@
         echo "</head>";
     }
 
+    // body label for top
     function body_start($type)
     {
         echo "<body id={$type}>";
         include "global/google_tag_noscript.php";
         include "global/languages.php";
+        echo "</header>";
     }
 
+    // modal for top
     function modal($lang)
     {
         include "{$lang}/top_modal.php";
     }
 
     // including banner and slider
-    function slider($lang,$type)
+    // include slider with banner
+    function slider_b($lang,$type)
     {
         include "{$lang}/{$type}_banner.php";
-        include "{$lang}/{$type}_slider_front.php";
-        include "{$lang}/{$type}_slider_mid.php";
+        include "{$lang}/slider_front.php";
+        include "{$lang}/slider_mid.php";
         menu($type);
-        include "{$lang}/{$type}_slider_over.php";
+        include "{$lang}/slider_over.php";
     }
 
     function top_contents($lang,$type)

@@ -33,4 +33,3 @@
 				</dl>
 			</div>
 		</div>
-</header>

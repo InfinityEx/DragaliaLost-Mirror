@@ -1,5 +1,4 @@
-    <li class="special">
-						<div class="">
+
 							<img src="/assets/chs/images/pc/common/btn_nav_special_off.png" alt="SPECIAL">
 							<div class="menu-special">
 								<ul>

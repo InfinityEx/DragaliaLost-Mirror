@@ -42,5 +42,12 @@
         }else{
             echo '<li class="gamesystem"> <a href="/chs/gamesystem/" class=""><img src="/assets/chs/images/pc/common/btn_nav_gamesystem_off.png" alt="GAMESYSTEM"></a></li>';
         }
+
+        // special
+        if($whoactive=='special'){
+            echo '<li class="special"><div class="active">';
+        }else{
+            echo '<li class="special"><div class="">';
+        }
     }
 ?>

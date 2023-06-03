@@ -20,7 +20,7 @@
     head_type($lang,$type);
     body_start($type);
     modal($lang);
-    slider($lang,$type);
+    slider_b($lang,$type);
     top_contents($lang,$type);
     top_news($lang);
     footer($lang);
