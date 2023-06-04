@@ -1,1 +1,0 @@
-<link rel="stylesheet" href="/assets/chs/css/pc/top.css">

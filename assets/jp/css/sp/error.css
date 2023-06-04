@@ -1,0 +1,42 @@
+body#error {
+  background: #f4f4f4 url("/web/20230507031418im_/https://dragalialost.com/assets/jp/images/sp/error/bg.jpg") no-repeat center top;
+  background-size: 667px;
+  min-width: 320px; }
+  body#error #contents {
+    padding-top: 90px;
+    text-align: center; }
+    body#error #contents h1 {
+      margin-bottom: 173px; }
+      body#error #contents h1 img {
+        width: 210px;
+        height: 80px; }
+    body#error #contents p {
+      margin-bottom: 142px; }
+      body#error #contents p img {
+        width: 141;
+        height: 84px; }
+
+@media screen and (min-width: 667px) {
+  body#news {
+    background-size: contain; } }
+
+/*
+     FILE ARCHIVED ON 03:14:18 May 07, 2023 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:55:35 Jun 04, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 93.072
+  exclusion.robots: 0.214
+  exclusion.robots.policy: 0.203
+  cdx.remote: 0.065
+  esindex: 0.01
+  LoadShardBlock: 65.788 (3)
+  PetaboxLoader3.datanode: 67.875 (4)
+  load_resource: 153.641
+  PetaboxLoader3.resolve: 43.648
+*/

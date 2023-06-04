@@ -1,0 +1,109 @@
+body:not(#top, #news){
+  background-color: #f4f4f4;
+}
+body#character-detail{
+  background-size: cover;
+}
+
+/*浜嬪墠鐧婚尣*/
+.approach .btn_pre_registration .top10_up{
+  width: 100%;
+  position: relative;
+  margin-top: 12px;
+}
+
+.approach .btn_pre_registration .top10_up > img{
+  max-width: 100%;
+}
+
+.approach .btn_pre_registration .top10_up > .ios{
+  position: absolute;
+  width: 33.6%;
+  top: 46%;
+  right: 60%;
+}
+
+.approach .btn_pre_registration .top10_up > .android{
+  position: absolute;
+  width: 49.72%;
+  top: 46%;
+  right: 9%;
+}
+
+.approach .btn_pre_registration .top10_up > .android img, .approach .btn_pre_registration .top10_up > .ios img{
+ max-width: 100%;
+}
+
+#dragon .introduction .link .btn-detail{
+  background: none
+}
+#dragon .introduction .link .btn-detail img{
+  width: 160px;
+  height: 54px;
+}
+
+body#pre_registration #contents .approach .btn_pre_registration .store .link a{
+  background-image: none;
+  padding-top: 0;
+}
+body#pre_registration #contents .approach .btn_pre_registration .store .link{
+  width: auto;
+}
+@media screen and (max-width: 374px) {
+  body#pre_registration #contents .approach .btn_pre_registration .store .link img{
+    width: 129px;
+    height: 47px;
+  }
+}
+@media screen and (max-width: 374px) {
+  body#pre_registration #contents .approach .btn_pre_registration .store .google img{
+    width: 158px;
+    height: 47px;
+  }
+}
+body#pre_registration #contents .approach .btn_pre_registration .store .google{
+  margin-left: 6px;
+}
+@media screen and (max-width: 374px) {
+  body#pre_registration #contents .approach .btn_pre_registration .store .google {
+    margin-left: 2px;
+  }
+}
+body#pre_registration #contents .approach .btn_pre_registration .store .text{
+  display: block;
+  margin-bottom: 7px;
+}
+body#pre_registration #contents .approach .btn_pre_registration ul .line{
+  margin-top: 12px;
+}
+
+@media screen and (max-width: 374px) {
+  body#pre_registration #contents .approach .btn_pre_registration ul .line a img{
+    width: 100%;
+    height: 100%;
+  }
+}
+body#pre_registration #contents .approach .btn_pre_registration .store{
+  margin-bottom: 13px;
+}
+
+/*
+     FILE ARCHIVED ON 03:14:18 May 07, 2023 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:57:38 Jun 04, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 374.598
+  exclusion.robots: 0.191
+  exclusion.robots.policy: 0.181
+  RedisCDXSource: 0.524
+  esindex: 0.007
+  LoadShardBlock: 345.635 (3)
+  PetaboxLoader3.resolve: 586.63 (3)
+  PetaboxLoader3.datanode: 79.798 (4)
+  load_resource: 341.804
+*/
