@@ -1,6 +1,6 @@
 fastcgi_intercept_errors on;
 error_page 404  /jp/404.html;
 
-location /chs/news/detail/ {
-           rewrite ^/chs/news/detail/(.*)/ /chs/news/detail/index.php?article_id=$1 last;
-        }
+location /news/detail/ {
+         rewrite ^/news/detail/([0-9]+)$ /chs/news/detail/index.php?article_id=$1 last;
+      }
