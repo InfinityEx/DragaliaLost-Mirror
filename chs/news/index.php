@@ -2,9 +2,6 @@
     include '../../template/top.php';
     include '../../template/news.php';
 
-    $action=$_GET['action'];
-    $article_id=$_GET['article_id'];
-
     $lang='chs';
     $type='news';
 
