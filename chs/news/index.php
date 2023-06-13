@@ -4,10 +4,11 @@
 
     $lang='chs';
     $type='news';
+    $extra=1;
 
     echo "<!DOCTYPE html>";
     lang($lang);
-    head_type($lang,$type);
+    head_type($lang,$type,$extra);
     news_body($lang,$type);
 
     news_top($lang,$type);

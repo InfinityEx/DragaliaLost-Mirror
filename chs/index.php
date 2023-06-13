@@ -14,10 +14,11 @@
     include '../template/top.php';
     $lang='chs';
     $type='top';
+    $extra=1;
 
     echo "<!DOCTYPE html>";
     lang($lang);
-    head_type($lang,$type);
+    head_type($lang,$type,$extra);
     body_start($type);
     modal($lang);
     slider_b($lang,$type);

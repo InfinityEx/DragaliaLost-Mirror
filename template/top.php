@@ -14,7 +14,7 @@
     }
 
     // generate head
-    function head_type($lang,$type)
+    function head_type($lang,$type,$extra)
     {
         echo "<head>";
         include "{$lang}/{$type}_head_meta.php";
@@ -22,9 +22,13 @@
         // generate title
         title($type);
         include "global/css.php";
-        include "{$lang}/{$type}_head_css.php";
+        if($extra==(1 || 3)){
+            include "{$lang}/{$type}_head_css.php";
+        }
         include "global/js.php";
-        include "{$lang}/{$type}_head_js.php";
+        if($extra==(2 || 3)){
+            include "{$lang}/{$type}_head_js.php";
+        }
         include "global/google_tag.php";
         echo "</head>";
     }
