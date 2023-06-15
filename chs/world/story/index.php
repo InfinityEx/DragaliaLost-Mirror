@@ -3,10 +3,12 @@
     include '../../../template/story.php';
     $lang='chs';
     $type='story';
-    $extra=0;
+    $extra=1;
 
     echo "<!DOCTYPE html>";
     lang($lang);
     head_type($lang,$type,$extra);
-    body_start($type);
+    body_slider($lang,$type);
+    wrapper($lang);
+    footer($lang);
 ?>

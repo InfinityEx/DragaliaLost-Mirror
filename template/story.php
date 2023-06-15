@@ -1,3 +1,20 @@
 <?php
-    
+    //languages - slider(app-header) [header]
+    function body_slider($lang,$type)
+    {
+        echo "<body id={$type}>";
+        include "global/google_tag_noscript.php";
+        include "global/languages.php";
+        include "{$lang}/slider_front.php";
+        include "{$lang}/slider_mid.php";
+        menu($type);
+        include "{$lang}/slider_over.php";
+        echo "</header>";
+    }
+
+    // main contents-wrapper
+    function wrapper($lang)
+    {
+        include "{$lang}/world_story_wrapper.php";
+    }
 ?>

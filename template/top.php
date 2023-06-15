@@ -22,11 +22,11 @@
         // generate title
         title($type);
         include "global/css.php";
-        if($extra==(1 || 3)){
+        if($extra==1 || $extra==3){
             include "{$lang}/{$type}_head_css.php";
         }
         include "global/js.php";
-        if($extra==(2 || 3)){
+        if($extra==2 || $extra==3){
             include "{$lang}/{$type}_head_js.php";
         }
         include "global/google_tag.php";
