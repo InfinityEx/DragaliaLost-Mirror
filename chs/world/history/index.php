@@ -2,7 +2,7 @@
     include '../../../template/top.php';
     include '../../../template/story.php';
     $lang='chs';
-    $type='story';
+    $type='history';
     $extra=1;
 
     echo "<!DOCTYPE html>";

@@ -13,8 +13,8 @@
     }
 
     // main contents-wrapper
-    function wrapper($lang)
+    function wrapper($lang,$type)
     {
-        include "{$lang}/world_story_wrapper.php";
+        include "{$lang}/world_{$type}_wrapper.php";
     }
 ?>
