@@ -1,8 +1,8 @@
 <?php
     //languages - slider(app-header) [header]
-    function body_slider($lang,$type)
+    function body_slider($lang,$type,$sub)
     {
-        echo "<body id={$type}>";
+        echo "<body id={$sub}>";
         include "global/google_tag_noscript.php";
         include "global/languages.php";
         include "{$lang}/slider_front.php";
